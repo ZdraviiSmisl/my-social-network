@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="">
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/../../.idea/React_Redux.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
@@ -436,11 +436,6 @@
       <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/reportWebVitals.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/setupTests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/portfolio(one)/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/portfolio(one)/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/portfolio(one)/.idea/portfolio(one).iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/portfolio(one)/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/portfolio(one)/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/modules.xml" afterDir="false" />
@@ -466,7 +461,21 @@
       <change afterPath="$PROJECT_DIR$/../../Other_projects/promises/.idea/promises.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Other_projects/simple-todolist/.idea/simple-todolist.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Other_projects/todolisssst/.idea/todolisssst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/reset.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fetch-wrapper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/route-guard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user-service.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Home.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Home.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../dog-app/.idea/dog-app.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/hooks-story-book.iml" afterDir="false" />
@@ -476,6 +485,18 @@
       <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../hooks-story-book/src/componets/Checkbox/Checkbox.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../hooks-story-book/src/componets/Student/Student.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -485,15 +506,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2BZfJMxJXIhwp1yIazHKyGLBxRj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -505,12 +544,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="code.cleanup.on.save" value="true" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="rearrange.code.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\React_Redux\Pet-projects\new-hope\src\components" />
+      <recent name="C:\React_Redux\Pet-projects\new-hope\pages" />
+      <recent name="C:\React_Redux\Pet-projects\new-hope\pages\blocks\login" />
+      <recent name="C:\React_Redux\Pet-projects\new-hope\pages\api\blocks" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -548,7 +602,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657118463954</updated>
-      <workItem from="1657118465747" duration="3126000" />
+      <workItem from="1657118465747" duration="127838000" />
     </task>
     <servers />
   </component>
@@ -565,5 +619,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
