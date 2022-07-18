@@ -4,41 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="debug in files: user-service.jsx and route-guard.jsx">
-      <change afterPath="$PROJECT_DIR$/img/logo-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/posts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/posts/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/users/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/users/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Heading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input-field.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/404.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/404.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/404.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Navigation.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Navigation.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Navigation.module.scss" afterDir="false" />
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image">
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/reset.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reset.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fetch-wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fetch-wrapper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/reset.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reset.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +75,7 @@
     <property name="code.cleanup.on.save" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.44" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -108,14 +91,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\React_Redux\Pet-projects\new-hope\public" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\React_Redux\Pet-projects\new-hope\public" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\styles" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\src\components" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\pages" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\pages\blocks\login" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\pages\api\blocks" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -155,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657118463954</updated>
       <workItem from="1657118465747" duration="128539000" />
-      <workItem from="1657785843200" duration="60788000" />
+      <workItem from="1657785843200" duration="80457000" />
     </task>
     <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
       <created>1657746706333</created>
@@ -164,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657746706334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image">
+      <created>1658129032762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658129032763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +176,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="debug in files: user-service.jsx and route-guard.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug in files: user-service.jsx and route-guard.jsx" />
+    <MESSAGE value="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

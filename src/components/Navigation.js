@@ -1,6 +1,7 @@
 import Link from "next/link"
 import styles from "../../styles/Navigation.module.scss"
 import res from "../../styles/reset.module.scss"
+import Image from "next/image";
 import {useRouter} from "next/router";
 
 const NavRouts = [{id: 1, name: "Home", path: "/"},
@@ -13,7 +14,8 @@ const Nav = () => {
   const router = useRouter();
   return (
     <nav className={`${styles.nav} ${res.page__list}`}>
-      <Link href="/"><a className={styles.nav__logo}>Logo</a></Link>
+      <Link href="/"><a className={styles.nav__logo}><Image src="/logo.png" width={100} height={100}
+                                                            alt="Logo website"/></a></Link>
       <ul className={styles.nav__list}>
         {NavRouts.map(({id, name, path,}) => (
           <li key={id} className={styles.nav__item}>
