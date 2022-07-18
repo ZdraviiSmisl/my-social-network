@@ -4,499 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/../../.idea/React_Redux.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/editor/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/editor/.idea/editor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/editor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/editor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/editor/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/editor/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/editor/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/editor/winter_road.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/.idea/photos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/airplane.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/drum_set.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/mountains.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/panorama_of_the_day.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/photos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/photos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/shopping_malls.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/window.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Catalog/photos/winter_road.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/header/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/header/.idea/header.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/header/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/header/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/header/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/header/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/request/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/request/.idea/request.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/request/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/request/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/request/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/request/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Form/request/reques_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/.idea/site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/img/icon-brew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/img/icon-fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/img/icon-insta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/img/icon-matreshka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/img/icon-thumbsup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/img/icon-vk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/img/quotes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/img/wheat-back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/HTML_Academy/site/style-kvast.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/.idea/Site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/img/bottle-left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/img/bottle-right.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/img/htmlacademy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/img/wiki-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/img/wiki-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/style-themes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/Site/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/examples_js/.idea/examples_js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/feedback/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/footer/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/.idea/js-examples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example100.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example101.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example102.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example103.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example104.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example105.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example106.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example107.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example108.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example109.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example110.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example14.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example15.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example16.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example17.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example18.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example19.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example20.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example21.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example22.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example23.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example24.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example25.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example26.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example27.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example28.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example29.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example29.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example30.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example31.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example32.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example33.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example34.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example35.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example36.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example37.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example38.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example39.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example40.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example41.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example42.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example43.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example44.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example45.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example46.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example47.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example48.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example49.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example50.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example51.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example52.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example53.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example54.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example55.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example56.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example57.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example58.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example59.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example60.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example61.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example62.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example63.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example65.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example66.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example67.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example68.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example69.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example70.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example71.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example72.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example73.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example74.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example75.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example76.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example77.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example78.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example79.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example80.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example81.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example82.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example83.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example84.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example85.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example86.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example87.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example88.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example89.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example90.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example91.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example92.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example93.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example94.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example95.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example96.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example97.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example98.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/example99.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples100.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples101.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples102.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples103.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples104.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples105.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples106.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples107.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples108.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples109.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples110.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples111.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples112.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples113.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples114.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples115.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples116.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples117.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples118.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples119.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples120.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples121.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples122.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples123.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples124.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples125.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples126.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples127.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples128.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples129.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples130.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples131.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples132.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples133.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples134.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples135.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples136.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples137.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples138.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples139.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples140.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples141.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples142.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples143.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples144.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples145.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples146.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples147.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples148.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples149.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples18.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples20.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples24.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples25.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples27.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples28.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples29.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples30.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples31.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples32.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples33.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples34.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples35.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples36.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples37.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples38.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples39.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples40.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples41.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples42.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples43.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples44.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples45.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples46.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples47.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples48.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples49.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples50.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples51.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples52.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples53.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples54.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples55.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples56.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples57.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples58.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples59.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples60.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples61.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples62.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples63.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples64.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples65.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples66.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples67.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples68.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples69.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples70.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples71.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples72.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples73.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples74.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples75.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples76.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples77.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples78.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples79.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples80.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples81.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples82.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples83.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples84.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples85.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples86.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples87.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples88.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples89.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples90.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples91.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples92.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples93.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples94.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples95.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples96.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples97.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples98.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examples99.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examplesCss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/examplesCss2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/js-examples/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/.idea/something_special.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/Group 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone 3--mobil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone 3--tablet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone screen-1--desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone screen-2--desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone screen-3--desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone screen-3--mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone screen-3--tablet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone screen-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/img/iphone--desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/some_block_1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/advantages/some_block_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/.idea/downloads.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/android-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/apple-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/microsoft-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/downloads/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/feedback/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/feedback/.idea/feedback.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/feedback/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/feedback/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/feedback/feedback-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/feedback/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/feedback/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/footer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/footer/.idea/footer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/footer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/footer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/footer/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/footer/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/footer/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/header/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/header/.idea/header.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/header/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/header/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/header/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/header/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/header/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/map/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/map/.idea/map.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/map/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/map/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/map/map-template.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/map/map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/map/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/rewievs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/rewievs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/rewievs/.idea/something__special__two.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/rewievs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/rewievs/css.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/rewievs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/rewievs/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/tariff__plans/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/tariff__plans/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/tariff__plans/.idea/tariff__plans.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/tariff__plans/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/tariff__plans/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/tariff__plans/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/main_page/tariff__plans/tariff_plans.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/public/like_button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/new-attempt/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/day-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/files/project.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/files/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/img/hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/img/icon-css.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/img/icon-email-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/img/icon-email-header.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/img/icon-html.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/img/icon-phone-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/img/icon-phone-header.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/outlines.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/project/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/projectGame/.idea/projectGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/projectGame/number-guessing-game-start.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/projectMDN/.idea/projectMDN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/projectMDN/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/promises/.idea/promises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/simple-todolist/.idea/simple-todolist.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/todolisssst/.idea/todolisssst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/reset.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/fetch-wrapper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/route-guard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user-service.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Home.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Home.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dog-app/.idea/dog-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/hooks-story-book.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hooks-story-book/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hooks-story-book/src/componets/Checkbox/Checkbox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hooks-story-book/src/componets/Student/Student.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="debug in files: user-service.jsx and route-guard.jsx">
+      <change afterPath="$PROJECT_DIR$/img/logo-200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/posts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/posts/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/users/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/users/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Heading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input-field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/404.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/404.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/404.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Navigation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Navigation.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Navigation.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reset.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reset.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fetch-wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fetch-wrapper.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -506,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -535,16 +77,22 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2BZfJMxJXIhwp1yIazHKyGLBxRj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="code.cleanup.on.save" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.44" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -554,12 +102,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\React_Redux\Pet-projects\new-hope\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\React_Redux\Pet-projects\new-hope\styles" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\src\components" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\pages" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\pages\blocks\login" />
@@ -602,8 +154,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657118463954</updated>
-      <workItem from="1657118465747" duration="127838000" />
+      <workItem from="1657118465747" duration="128539000" />
+      <workItem from="1657785843200" duration="60788000" />
     </task>
+    <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
+      <created>1657746706333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657746706334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,8 +182,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="debug in files: user-service.jsx and route-guard.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug in files: user-service.jsx and route-guard.jsx" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

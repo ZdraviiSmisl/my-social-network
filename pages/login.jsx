@@ -1,5 +1,5 @@
-import styles from "./login.module.scss"
-import reset from "./reset.module.scss"
+import styles from "../styles/login.module.scss"
+import reset from "../styles/reset.module.scss"
 import {useRouter} from "next/router";
 import {useEffect} from "react";
 import {userService} from "../src/components/user-service";
@@ -15,7 +15,8 @@ export default function Login() {
     }
   }, [])
 
-  const onFormSubmit = (username, password) => {
+  const onFormSubmit = (e) => {
+    e.preventDefault()
 
     /*  return userService.login(username, password)
         .then(() => {

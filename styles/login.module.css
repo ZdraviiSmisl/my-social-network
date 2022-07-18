@@ -9,14 +9,9 @@
   padding: 15px 20px 10px 20px;
   max-width: 200px;
   min-height: 100px;
-  background-color: var(--new-gray);
+  background-color: #3a6073;
   filter: drop-shadow(0 2px 8px var(--for-shadow-form));
   border-radius: 10px;
-  /*  &__input[name="password"],
-    &__input[name="login"] {
-      --white: hsla(0, 0%, 95%, 1);
-      background-color: var(--white)!important;
-    }*/
 }
 .form__login {
   grid-area: 1/1/2/3;
@@ -54,8 +49,8 @@
   font-size: 13px;
   line-height: 1.5em;
   font-weight: 700;
-  color: var(--special-blue-30);
-  outline: 1.5px solid var(--special-blue-30);
+  color: var(--sky-blue);
+  outline: 1.5px solid var(--sky-blue);
   border-radius: 22px;
 }
 
