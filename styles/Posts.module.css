@@ -1,0 +1,13 @@
+.posts__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--sky-blue);
+}
+.posts__titlePost {
+  font-size: 20px;
+  line-height: 1em;
+  color: var(--sky-blue);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Posts.module.css.map */

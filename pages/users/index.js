@@ -1,6 +1,8 @@
 import Heading from "../../src/components/Heading";
 import Head from "next/head";
-import styles from "../../styles/reset.module.scss"
+import res from "../../styles/reset.module.scss"
+import styles from "../../styles/Users.module.scss"
+import Link from "next/link";
 
 export const getStaticProps = async () => {
   const res = await fetch("https://dummyjson.com/users");
@@ -19,14 +21,18 @@ export const getStaticProps = async () => {
 const Users = ({allUsers}) => {
   return (
     <>
-      <div className={styles.page__center}>
+      <div className={res.page__center}>
         <Head>
           <title>Users</title>
         </Head>
         <Heading text="Users List:"/>
         <ul>
-          {allUsers && allUsers.map(({id, firstName, lastName, email}) => (
-            <li key={id}><strong>{`${firstName} ${lastName}`}</strong> ({email}) </li>
+          {allUsers && allUsers.map(({id, firstName, lastName}) => (
+            <li key={id}>
+              <Link href={`/users/${id}`}>
+                <span className={styles.users__name}>{`${firstName} ${lastName}`}</span>
+              </Link>
+            </li>
           ))}
         </ul>
       </div>

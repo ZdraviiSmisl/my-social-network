@@ -1,9 +1,10 @@
 import Heading from "../../src/components/Heading";
 import Head from "next/head";
-import styles from "../../styles/reset.module.scss"
+import res from "../../styles/reset.module.scss"
+import styles from "../../styles/Posts.module.scss"
+import Link from "next/link";
 
 export const getStaticProps = async () => {
-  console.log("11111")
   const res = await fetch("https://dummyjson.com/posts");
   const date = await res.json();
 
@@ -14,23 +15,41 @@ export const getStaticProps = async () => {
   }
 
   return {
-    props: {allPosts: date["posts"]}
+    props: {
+      allInfo: date,
+    }
   }
 }
 
-const Posts = ({allPosts}) => {
+const Posts = ({allInfo}) => {
+
+  const {posts, total, skip, limit} = allInfo || {};
   return (
     <>
-      <div className={styles.page__center}>
+      <div className={res.page__center}>
         <Head>
           <title>Posts</title>
         </Head>
         <Heading text="Posts List:"/>
         <ul>
-          {allPosts && allPosts.map(({id, title, tags, total}) => (
-            <li key={id}>{title} (userTags:{tags}) {total}</li>
-          ))}
+          {posts && posts.map(({id, title}) => {
+            return (
+              <li key={id}>
+                <Link href={`/posts/${id}`}>
+                  <p className={styles.posts__titlePost}>{title}</p>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
+        <div>
+          <strong>Other info:</strong>
+          <ul>
+            <li><span>Total: {total}</span></li>
+            <li><span>Skip: {skip}</span></li>
+            <li><span>Limit: {limit}</span></li>
+          </ul>
+        </div>
       </div>
     </>
   )

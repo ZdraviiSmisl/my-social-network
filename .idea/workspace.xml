@@ -4,24 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image">
-      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added getting users and posts&#10;and a custom error page">
+      <change afterPath="$PROJECT_DIR$/src/components/Postinfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Userinfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Posts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Posts.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Posts.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Users.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Users.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/Users.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo-200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/reset.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reset.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657118463954</updated>
       <workItem from="1657118465747" duration="128539000" />
-      <workItem from="1657785843200" duration="80457000" />
+      <workItem from="1657785843200" duration="115260000" />
     </task>
     <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
       <created>1657746706333</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658129032763</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added getting users and posts&#10;and a custom error page">
+      <created>1658164190724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658164190724</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +185,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="debug in files: user-service.jsx and route-guard.jsx" />
     <MESSAGE value="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image" />
+    <MESSAGE value="added getting users and posts&#10;and a custom error page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getting users and posts&#10;and a custom error page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
