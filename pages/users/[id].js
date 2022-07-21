@@ -4,7 +4,7 @@ import Userinfo from "../../src/components/Userinfo";
 
 export async function getServerSideProps(context) {
   const {id} = context.params;
-  const res = await fetch(`https://dummyjson.com/users/${id}`)
+  const res = await fetch(`https://dummyjson.com/users/${id}`);
   const date = await res.json();
 
   if (!date) {

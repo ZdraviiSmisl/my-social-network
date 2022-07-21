@@ -5,12 +5,12 @@ const Userinfo = ({user}) => {
 
   /*
     Object.keys(address);
-    if (key === "address") {
-      delete Object.assign(address, {fullAddress: address.address})["address"]
+    if (key == "address") {
+      delete Object.assign(address, {["fullAddress"]: address["address"]})["address"]
     }
   */
 
-  const {city, postalCode, state} = address || {};
+  const {city, postalCode, state, fullAddress} = address || {};
 
   if (!user) {
     return <Heading tag='h3' text="One day here will be a new component"/>
@@ -32,7 +32,7 @@ const Userinfo = ({user}) => {
         <strong>phone:</strong> <span>{phone}</span>
       </p>
       <p>
-        <strong>Address:</strong> <span>{`${city} ${postalCode} ${state} ${address}`}</span>
+        <strong>Address:</strong> <span>{`${city} ${postalCode} ${state} ${address["address"]}`}</span>
       </p>
 
     </>
