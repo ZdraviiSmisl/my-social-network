@@ -34,13 +34,19 @@
     border-radius: 2px;
   }
 
-  &__singIn {
-    grid-area: 3/1/4/2;
+  &__panel {
+    grid-area: 3/1/4/3;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  &__singIn,
+  &__signOut {
     justify-self: self-start;
   }
 
   &__singUp {
-    grid-area: 3/2/4/3;
     justify-self: self-end;
   }
 
@@ -58,6 +64,16 @@
     color: var(--sky-blue);
     outline: 1.5px solid var(--sky-blue);
     border-radius: 22px;
+  }
+
+  &__loading {
+    transition: all 0.2s ease-in;
+    opacity: 0;
+  }
+
+  &__loaded {
+    transition: all 0.2s ease-in;
+    opacity: 1;
   }
 }
 

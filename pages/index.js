@@ -1,4 +1,4 @@
-import Heading from "../src/components/Heading";
+import Heading from "../components/Heading";
 import styles from "../styles/Home.module.scss"
 import Head from "next/head";
 

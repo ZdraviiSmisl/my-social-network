@@ -1,18 +1,22 @@
 .nav {
   display: grid;
+  flex-wrap: nowrap;
   grid-template-columns: repeat(2, auto);
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   height: 100%;
 }
 .nav__logo {
   display: block;
-  justify-self: self-start;
+  justify-self: center;
 }
 .nav__list {
+  grid-column: 2/3;
+  justify-self: center;
   display: flex;
   flex-flow: row wrap;
+  max-width: 500px;
 }
 .nav__item {
   height: 100%;

@@ -4,13 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added SSR for single user and single post,as well as primary styles for those pages">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added getting address information for each of users">
+      <change afterPath="$PROJECT_DIR$/pages/api/auth/[...nextauth].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/users/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/[id].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Userinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Userinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Heading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input-field.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input-field.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Postinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Postinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Userinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Userinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fetch-wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/fetch-wrapper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/route-guard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/route-guard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user-service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/user-service.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/login.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/login.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +99,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -85,14 +109,20 @@
       <recent name="C:\React_Redux\Pet-projects\new-hope\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\React_Redux\Pet-projects\new-hope" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\public" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\styles" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\src\components" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\pages" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\pages\blocks\login" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="Node.js.login.js">
+    <configuration name="login.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="login.js" working-dir="$PROJECT_DIR$/pages">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" with-js-debugger="true" url="http://localhost:3000/login" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -115,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.login.js" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
       </list>
@@ -129,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657118463954</updated>
       <workItem from="1657118465747" duration="128539000" />
-      <workItem from="1657785843200" duration="131006000" />
+      <workItem from="1657785843200" duration="160969000" />
     </task>
     <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
       <created>1657746706333</created>
@@ -159,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658316248378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added getting address information for each of users">
+      <created>1658407085339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658407085339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +221,15 @@
     <MESSAGE value="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image" />
     <MESSAGE value="added getting users and posts&#10;and a custom error page" />
     <MESSAGE value="added SSR for single user and single post,as well as primary styles for those pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added SSR for single user and single post,as well as primary styles for those pages" />
+    <MESSAGE value="added getting address information for each of users" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getting address information for each of users" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

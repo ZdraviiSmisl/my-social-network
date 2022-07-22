@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../../styles/reset.module.scss";
-import Postinfo from "../../src/components/Postinfo";
+import Postinfo from "../../components/Postinfo";
 
 export async function getServerSideProps(context) {
   const {id} = context.params;

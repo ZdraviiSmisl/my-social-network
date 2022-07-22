@@ -1,4 +1,4 @@
-import Heading from "../../src/components/Heading";
+import Heading from "../../components/Heading";
 import Head from "next/head";
 import res from "../../styles/reset.module.scss"
 import styles from "../../styles/Users.module.scss"
