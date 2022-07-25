@@ -4,36 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added getting address information for each of users">
-      <change afterPath="$PROJECT_DIR$/pages/api/auth/[...nextauth].js" afterDir="false" />
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added sing in and sign out button and client-side authentication">
+      <change afterPath="$PROJECT_DIR$/components/AccessDenied.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/auth/securing-routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Userinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Userinfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/[id].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Heading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input-field.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Input-field.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Postinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Postinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Userinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Userinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fetch-wrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/fetch-wrapper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/route-guard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/route-guard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user-service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/user-service.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/login.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/login.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -110,10 +93,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\React_Redux\Pet-projects\new-hope" />
+      <recent name="C:\React_Redux\Pet-projects\new-hope\pages" />
+      <recent name="C:\React_Redux\Pet-projects\new-hope\pages\api\auth" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\public" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\styles" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\src\components" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\pages" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.login.js">
@@ -160,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657118463954</updated>
       <workItem from="1657118465747" duration="128539000" />
-      <workItem from="1657785843200" duration="160969000" />
+      <workItem from="1657785843200" duration="212549000" />
     </task>
     <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
       <created>1657746706333</created>
@@ -197,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658407085339</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added sing in and sign out button and client-side authentication">
+      <created>1658513772626</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658513772626</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +212,8 @@
     <MESSAGE value="added getting users and posts&#10;and a custom error page" />
     <MESSAGE value="added SSR for single user and single post,as well as primary styles for those pages" />
     <MESSAGE value="added getting address information for each of users" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getting address information for each of users" />
+    <MESSAGE value="added sing in and sign out button and client-side authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sing in and sign out button and client-side authentication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

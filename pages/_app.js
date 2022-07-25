@@ -3,11 +3,12 @@ import Layout from "../components/Layout"
 import Head from "next/head";
 import {SessionProvider} from "next-auth/react";
 
+
 function SocialNetwork({Component, pageProps: {session, ...pageProps}}) {
   return (
     <div className="wrapper">
-      <Layout>
-        <SessionProvider session={session}>
+      <SessionProvider session={session}>
+        <Layout>
           <Head>
             <title>Social Network</title>
             <link
@@ -17,8 +18,9 @@ function SocialNetwork({Component, pageProps: {session, ...pageProps}}) {
           <main>
             <Component {...pageProps} />
           </main>
-        </SessionProvider>
-      </Layout>
+        </Layout>
+      </SessionProvider>
+
 
     </div>
   )

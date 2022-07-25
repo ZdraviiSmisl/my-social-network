@@ -4,6 +4,7 @@ import res from "../../styles/reset.module.scss"
 import styles from "../../styles/Posts.module.scss"
 import Link from "next/link";
 
+
 export const getStaticProps = async () => {
   const res = await fetch("https://dummyjson.com/posts");
   const date = await res.json();

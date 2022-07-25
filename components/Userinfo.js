@@ -1,16 +1,9 @@
 import Heading from "./Heading";
 
 const Userinfo = ({user}) => {
+
   const {firstName, lastName, age, gender, email, phone, address} = user || {};
-
-  /*
-    Object.keys(address);
-    if (key == "address") {
-      delete Object.assign(address, {["fullAddress"]: address["address"]})["address"]
-    }
-  */
-
-  const {city, postalCode, state, fullAddress} = address || {};
+  const {city, postalCode, state} = address || {};
 
   if (!user) {
     return <Heading tag='h3' text="One day here will be a new component"/>
