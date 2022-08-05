@@ -1,24 +1,22 @@
-import Heading from "../../components/Heading";
+import Heading from "../../src/components/Heading";
 import Head from "next/head";
 import res from "../../styles/reset.module.scss"
-import styles from "../../styles/Users.module.scss"
+import {useDispatch, useSelector} from "react-redux";
+import {useEffect} from "react";
+import {getUsers} from "../../src/store/action-creators";
 import Link from "next/link";
-
-export const getStaticProps = async () => {
-  const res = await fetch("https://dummyjson.com/users");
-  const date = await res.json();
-
-  if (!date) {
-    return {notFound: true,}
-  }
-
-  return {
-    props: {allUsers: date["users"]},
-  }
-}
+import styles from "../../styles/Users.module.scss"
+import Error from "../404";
 
 
-const Users = ({allUsers}) => {
+const Users = () => {
+  const dispatch = useDispatch();
+  const {users, isLoading, error} = useSelector(state => state.usersReducer)
+
+  useEffect(() => {
+    dispatch(getUsers())
+  }, [])
+
   return (
     <>
       <div className={res.page__center}>
@@ -26,8 +24,10 @@ const Users = ({allUsers}) => {
           <title>Users</title>
         </Head>
         <Heading text="Users List:"/>
+        {isLoading && <h1>...Loading users</h1>}
+        {error && <Error/>}
         <ul>
-          {allUsers && allUsers.map(({id, firstName, lastName}) => (
+          {users && users.map(({id, firstName, lastName}) => (
             <li key={id}>
               <Link href={`/users/${id}`}>
                 <span className={styles.users__name}>{`${firstName} ${lastName}`}</span>

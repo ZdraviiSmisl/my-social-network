@@ -1,6 +1,6 @@
 import Link from "next/link"
-import styles from "../styles/Navigation.module.scss"
-import res from "../styles/reset.module.scss"
+import styles from "../../styles/Navigation.module.scss"
+import res from "../../styles/reset.module.scss"
 import Image from "next/image";
 import {useRouter} from "next/router";
 import {getSession, useSession} from "next-auth/react";

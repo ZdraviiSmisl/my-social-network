@@ -1,27 +1,26 @@
 import '../styles/globals.scss'
-import Layout from "../components/Layout"
+import Layout from "../src/components/Layout"
 import Head from "next/head";
 import {SessionProvider} from "next-auth/react";
-
+import {Provider} from "react-redux";
+import {useStore} from "../src/store/index"
 
 function SocialNetwork({Component, pageProps: {session, ...pageProps}}) {
+  const store = useStore(pageProps.initialReduxSore)
   return (
     <div className="wrapper">
-      <SessionProvider session={session}>
-        <Layout>
-          <Head>
-            <title>Social Network</title>
-            <link
-              href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&family=Splash&family=Tapestry&display=swap"
-              rel="stylesheet"/>
-          </Head>
-          <main>
-            <Component {...pageProps} />
-          </main>
-        </Layout>
-      </SessionProvider>
-
-
+      <Provider store={store}>
+        <SessionProvider session={session}>
+          <Layout>
+            <Head>
+              <title>Social Network</title>
+            </Head>
+            <main>
+              <Component {...pageProps} />
+            </main>
+          </Layout>
+        </SessionProvider>
+      </Provider>
     </div>
   )
 }

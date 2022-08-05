@@ -1,30 +1,23 @@
-import Heading from "../../components/Heading";
+import Heading from "../../src/components/Heading";
 import Head from "next/head";
 import res from "../../styles/reset.module.scss"
 import styles from "../../styles/Posts.module.scss"
 import Link from "next/link";
+import {useDispatch, useSelector} from "react-redux";
+import Error from "../404";
+import {useEffect} from "react";
+import {getPosts} from "../../src/store/action-creators";
+import axios from "axios";
 
 
-export const getStaticProps = async () => {
-  const res = await fetch("https://dummyjson.com/posts");
-  const date = await res.json();
+const Posts = () => {
+  const dispatch = useDispatch();
+  const {posts, isLoading, error, total, skip, limit} = useSelector(state => state.postsReducer);
 
-  if (!date) {
-    return {
-      notFound: true,
-    }
-  }
+  useEffect(() => {
+    dispatch(getPosts(axios))
+  }, []);
 
-  return {
-    props: {
-      allInfo: date,
-    }
-  }
-}
-
-const Posts = ({allInfo}) => {
-
-  const {posts, total, skip, limit} = allInfo || {};
   return (
     <>
       <div className={res.page__center}>
@@ -32,6 +25,8 @@ const Posts = ({allInfo}) => {
           <title>Posts</title>
         </Head>
         <Heading text="Posts List:"/>
+        {isLoading && <h1>...Loading user posts</h1>}
+        {error && <Error/>}
         <ul>
           {posts && posts.map(({id, title}) => {
             return (

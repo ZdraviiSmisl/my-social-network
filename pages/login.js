@@ -41,7 +41,6 @@ export default function Login() {
             </a>)}
           <a className={`${styles.form__singUp} ${styles.form__singLink}`} href="#">{"Sign up"}</a>
         </div>
-
       </form>
     </>
   )
