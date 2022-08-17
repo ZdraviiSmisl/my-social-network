@@ -3,6 +3,7 @@ import {ERROR_LOADING, LOADING, SET_USERS} from "../actions-types"
 let initialState = {
   users: [],
   error: "",
+  isLoading: false,
 }
 
 export const usersReducer = (state = initialState, action) => {

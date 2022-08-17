@@ -1,10 +1,10 @@
 import Head from "next/head";
-import styles from "../../styles/reset.module.scss";
-import Userinfo from "../../src/components/Userinfo";
+import styles from "../../../styles/reset.module.scss";
+import Postinfo from "../../components/Postinfo";
 
 export async function getServerSideProps(context) {
   const {id} = context.params;
-  const res = await fetch(`https://dummyjson.com/users/${id}`);
+  const res = await fetch(`https://dummyjson.com/posts/${id}`)
   const date = await res.json();
 
   if (!date) {
@@ -14,19 +14,19 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: {user: date}
+    props: {post: date}
   }
 }
 
-const User = ({user}) => (
+const Id = ({post}) => (
   <>
     <div className={styles.page__center}>
       <Head>
-        <title>User</title>
+        <title>Post</title>
       </Head>
-      <Userinfo user={user}/>
+      <Postinfo post={post}/>
     </div>
   </>
-);
+)
 
-export default User;
+export default Id;

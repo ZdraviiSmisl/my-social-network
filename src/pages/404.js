@@ -1,5 +1,5 @@
-import Heading from "../src/components/Heading";
-import styles from "../styles/404.module.scss"
+import Heading from "../components/Heading";
+import styles from "../../styles/404.module.scss"
 import {useEffect} from "react";
 import {useRouter} from "next/router";
 import Head from "next/head";

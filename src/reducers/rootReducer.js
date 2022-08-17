@@ -6,5 +6,4 @@ const rootReducer = {
   usersReducer,
   postsReducer
 }
-
 export default combineReducers(rootReducer);

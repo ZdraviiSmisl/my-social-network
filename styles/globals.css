@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-
 :root {
   --light-pink: hsla(0, 56%, 95%, 1);
   --slightly-pink: hsla(0, 73%, 91%, 1);
@@ -68,7 +65,6 @@
   --sunny-orage: hsla(20, 92%, 53%, 1);
 }
 
-
 html,
 body {
   margin: 0;
@@ -83,7 +79,6 @@ body {
   color: var(--sky-blue);
 }
 
-
 #__next {
   display: grid;
   min-height: 100vh;
@@ -91,7 +86,7 @@ body {
 
 .wrapper {
   margin-inline: auto;
-  width: min(99.9%);
+  width: 99.9%;
 }
 
 main {
@@ -110,7 +105,6 @@ footer {
   color: var(--sky-blue);
   background: linear-gradient(to right, #3a7bd5, #3a6073);
 }
-
 
 header {
   margin-bottom: 40px;
@@ -138,14 +132,12 @@ ul {
 a {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-
-  &,
-  &:visited,
-  &:hover,
-  &:active {
-    text-decoration: none;
-    font-variant: inherit;
-    font-family: inherit;
-    cursor: pointer;
-  }
 }
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  font-variant: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=globals.css.map */

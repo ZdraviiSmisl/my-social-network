@@ -1,0 +1,88 @@
+#r{
+
+}
+
+.btn {
+  --primary: #4628ff;
+  --warning: #ffd028;
+  --danger: #eb3f27;
+  --success: #75fa83;
+  --white: #fdfdfd;
+  --dark: #181717;
+  font-family: inherit;
+  font-weight: 400;
+  border-radius: 10px;
+  transition: transform 0.3ms ease;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+/*styles*/
+
+.btn--primary--solid {
+  color: var(--white);
+  background-color: var(--primary);
+  border: none;
+}
+
+.btn--warning--solid {
+  color: var(--dark);
+  background-color: var(--warning);
+  border: 0;
+}
+
+.btn--danger--solid {
+  color: var(--white);
+  background-color: var(--danger);
+  border: 0;
+}
+
+.btn--success--solid {
+  color: var(--white);
+  background-color: var(--success);
+  border: 0;
+}
+
+.btn--primary--outline {
+  color: var(--primary);
+  background-color: transparent;
+  border: 2px solid var(--primary);
+}
+
+.btnWarningOutline {
+  color: #2a5298;
+  /*color: var(--warning);*/
+  background-color: transparent;
+ /* border: 2px solid var(--warning);*/
+  border: #75fa83;
+}
+
+.btn--danger--outline {
+  color: var(--danger);
+  background-color: transparent;
+  border: 2px solid var(--danger);
+}
+
+.btn--success--outline {
+  color: var(--success);
+  background-color: transparent;
+  border: 2px solid var(--success)
+}
+
+/*sizes*/
+
+.btnMedium {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.btnLarge {
+  padding: 15px 30px;
+  font-size: 20px;
+}

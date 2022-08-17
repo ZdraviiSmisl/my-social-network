@@ -17,7 +17,6 @@ function initStore(initialState) {
 
 export const initializeStore = (preloadedState) => {
   let _store = store ?? initStore(preloadedState)
-
   // After navigating to a page with an initial Redux state, merge that state
   // with the current state in the store, and create a new store
 
@@ -42,3 +41,4 @@ export const initializeStore = (preloadedState) => {
 export function useStore(initialState) {
   return useMemo(() => initializeStore(initialState), [initialState])
 }
+

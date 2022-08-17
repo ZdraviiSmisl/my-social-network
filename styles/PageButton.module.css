@@ -1,0 +1,5 @@
+.pageNumber {
+  @apply mx-[5px] bg-sky-600 cursor-pointer hover:bg-teal-600 hover:drop-shadow-md hover:text-amber-300 rounded-[5px];
+}
+
+/*# sourceMappingURL=PageButton.module.css.map */

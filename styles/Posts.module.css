@@ -10,4 +10,20 @@
   cursor: pointer;
 }
 
+.postsGrid {
+  padding: 30px 20px 0 20px;
+  min-width: 800px;
+  background-color: var(--white);
+  @apply grid grid-cols-1 rounded-md;
+}
+.postsGrid .posts__titlePost {
+  @apply text-lg text-sky-700;
+}
+.postsGrid .postsList {
+  @apply mb-[30px];
+}
+.postsGrid .postDelete {
+  @apply justify-self-end box-border min-w-max  w-24 h-7 text-amber-50 bg-sky-700  rounded-2xl hover:-translate-y-1 hover:bg-teal-600 hover:text-sky-700 hover:border-sky-900 hover:drop-shadow-md;
+}
+
 /*# sourceMappingURL=Posts.module.css.map */

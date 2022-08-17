@@ -1,4 +1,4 @@
-import styles from "../styles/login.module.scss"
+import styles from "../../styles/login.module.scss"
 import Head from "next/head";
 import {signIn, signOut, useSession} from "next-auth/react";
 

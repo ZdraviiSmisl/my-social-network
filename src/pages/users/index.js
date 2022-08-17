@@ -1,12 +1,13 @@
-import Heading from "../../src/components/Heading";
+import Heading from "../../components/Heading";
 import Head from "next/head";
-import res from "../../styles/reset.module.scss"
+import res from "../../../styles/reset.module.scss"
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect} from "react";
-import {getUsers} from "../../src/store/action-creators";
+import {getUsers} from "../../store/action-creators";
 import Link from "next/link";
-import styles from "../../styles/Users.module.scss"
+import styles from "../../../styles/Users.module.scss"
 import Error from "../404";
+import Pagination from "../../components/Pagination";
 
 
 const Users = () => {
@@ -35,6 +36,7 @@ const Users = () => {
             </li>
           ))}
         </ul>
+        <Pagination/>
       </div>
     </>
   )
