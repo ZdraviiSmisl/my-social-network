@@ -1,5 +1,9 @@
 .turn {
-  @apply px-[0] py-1 bg-sky-600 text-white rounded-[5px] cursor-pointer hover:bg-teal-600 hover:drop-shadow-md hover:text-amber-300;
+  @apply mr-[5px] px-[0] py-1 bg-sky-600 text-white rounded-[5px] cursor-pointer hover:bg-teal-600 hover:drop-shadow-md hover:text-amber-300;
+}
+
+.turnRight {
+  @apply ml-[5px];
 }
 
 /*# sourceMappingURL=ButtonTurnsPage.module.css.map */

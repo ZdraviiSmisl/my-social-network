@@ -1,3 +1,4 @@
 .pageNumber {
   @apply mx-[5px] bg-sky-600 cursor-pointer hover:bg-teal-600 hover:drop-shadow-md hover:text-amber-300 rounded-[5px]
+  active:text-fuchsia-800 active:bg-blue-900 focus:outline-none focus:ring focus:ring-amber-500
 }

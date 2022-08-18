@@ -19,11 +19,20 @@
 .postsGrid .posts__titlePost {
   @apply text-lg text-sky-700;
 }
+.postsGrid .postLoadingMessage {
+  @apply text-center text-[#0b476a];
+}
 .postsGrid .postsList {
   @apply mb-[30px];
 }
+.postsGrid .postItem {
+  @apply mb-[10px] px-5 py-2 grid grid-cols-gridLi gap-4 items-center justify-between  min-h-[30px] border-2 border-[#0b476a] rounded-lg;
+}
 .postsGrid .postDelete {
   @apply justify-self-end box-border min-w-max  w-24 h-7 text-amber-50 bg-sky-700  rounded-2xl hover:-translate-y-1 hover:bg-teal-600 hover:text-sky-700 hover:border-sky-900 hover:drop-shadow-md;
+}
+.postsGrid .postsMessage {
+  @apply text-center text-2xl text-sky-700 font-medium;
 }
 
 /*# sourceMappingURL=Posts.module.css.map */

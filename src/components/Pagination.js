@@ -9,7 +9,7 @@ export default function Pagination({totalItems, skipItems, limitItems, pages}) {
   return (
     <>
       <nav>
-        <div className="mt-0 mb-[20px] mx-auto grid grid-cols-11 gap-[3px] justify-between">
+        <div className="mt-0 mb-[20px] mx-auto grid grid-flow-col">
           <button
             className={btnTurn.turn}
             onClick={() => dispatch(prevItems(15))}

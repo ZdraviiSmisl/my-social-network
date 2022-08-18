@@ -15,7 +15,7 @@ const Home = () => {
 
       <Button type="button" onClick={() => {
         console.log("It's working!")
-      }} btn={custom.btn} buttonStyle={custom.btnWarningOutline}
+      }} btn={custom.btn} buttonStyle={custom.btnPrimarySolid}
               buttonSize={custom.btnLarge}>Something
         doing</Button>
 

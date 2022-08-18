@@ -1,4 +1,4 @@
-#r{
+#r {
 
 }
 
@@ -25,11 +25,10 @@
 
 /*styles*/
 
-.btn--primary--solid {
-  color: var(--white);
-  background-color: var(--primary);
-  border: none;
+.btnPrimarySolid {
+  @apply text-white bg-[#4628ff] border-none
 }
+
 
 .btn--warning--solid {
   color: var(--dark);
@@ -49,7 +48,7 @@
   border: 0;
 }
 
-.btn--primary--outline {
+.btnPrimaryOutline {
   color: var(--primary);
   background-color: transparent;
   border: 2px solid var(--primary);
@@ -59,7 +58,7 @@
   color: #2a5298;
   /*color: var(--warning);*/
   background-color: transparent;
- /* border: 2px solid var(--warning);*/
+  /* border: 2px solid var(--warning);*/
   border: #75fa83;
 }
 
@@ -78,7 +77,7 @@
 /*sizes*/
 
 .btnMedium {
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: 18px;
 }
 

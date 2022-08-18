@@ -6,10 +6,12 @@ import Link from "next/link";
 import {useDispatch, useSelector} from "react-redux";
 import Error from "../404";
 import {useEffect} from "react";
-import {getPosts} from "../../store/action-creators";
+import {deletePost, getPosts} from "../../store/action-creators";
 import styleHead from "../../../styles/Heading.module.scss"
 import {range} from "../../features/range"
 import Pagination from "../../components/Pagination";
+import {Button} from "../../components/Button";
+import custom from "../../../styles/Button.module.scss"
 
 
 const Posts = () => {
@@ -23,9 +25,9 @@ const Posts = () => {
 
   const totalPages = Number(Math.ceil(totalPosts / limitPosts));
   let pages = [];
-  pages = range(1, totalPages);
+  pages = range(1, totalPages + 1);
 
-
+  console.log(posts)
   return (
     <>
       <div className={`${res.page__center} ${styles.postsGrid}`}>
@@ -33,23 +35,26 @@ const Posts = () => {
           <title>Posts</title>
         </Head>
         <Heading styleHead={styleHead.postsTitle} text="Posts List:"/>
-        {isLoading && <h1>...Loading user posts</h1>}
+        {isLoading && <Heading styleHead={styles.postLoadingMessage} text="...Loading user posts"/>}
         {error && <Error/>}
-        <ul className={styles.postsList}>
-          {posts && posts.map(({id, title}) => {
-            return (
-              <li key={id}
-                  className="grid grid-cols-gridLi items-center justify-between pb-[10px] min-h-[30px]">
-                <Link href={`/posts/${id}`}>
-                  <p className={styles.posts__titlePost}>{title}</p>
-                </Link>
-                <button
-                  className={`${styles.postDelete} btnCustom`}>Delete
-                </button>
-              </li>
-            );
-          })}
-        </ul>
+        {Array.isArray(posts) && posts.length ? (
+          <ul className={styles.postsList}>
+            {posts && posts.map(({id, title}) => {
+              return (
+                <li key={id}
+                    className={styles.postItem}>
+                  <Link href={`/posts/${id}`}>
+                    <p className={styles.posts__titlePost}>{title}</p>
+                  </Link>
+                  <Button onClick={() => dispatch(deletePost(id))} btn={custom.btn}
+                          buttonStyle={`${custom.btnPrimarySolid}`} type="button" key={id}
+                          buttonSize={`${custom.btnMedium}`} children="Delete"/>
+                </li>
+              );
+            })}
+          </ul>
+        ) : (<Heading styleHead={styles.postsMessage} tag={"p"} text="There are no messages on this page"/>)
+        }
 
         <Pagination totalItems={totalPosts} skipItems={skipPosts} limitItems={limitPosts} pages={pages}/>
 

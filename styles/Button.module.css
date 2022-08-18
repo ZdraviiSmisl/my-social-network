@@ -18,10 +18,8 @@
 }
 
 /*styles*/
-.btn--primary--solid {
-  color: var(--white);
-  background-color: var(--primary);
-  border: none;
+.btnPrimarySolid {
+  @apply text-white bg-[#4628ff] border-none;
 }
 
 .btn--warning--solid {
@@ -42,7 +40,7 @@
   border: 0;
 }
 
-.btn--primary--outline {
+.btnPrimaryOutline {
   color: var(--primary);
   background-color: transparent;
   border: 2px solid var(--primary);
@@ -70,7 +68,7 @@
 
 /*sizes*/
 .btnMedium {
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: 18px;
 }
 

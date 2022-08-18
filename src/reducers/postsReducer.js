@@ -1,4 +1,5 @@
 import {
+  DELETE_POST,
   ERROR_LOADING,
   LIMIT_POSTS,
   LOADING,
@@ -44,6 +45,12 @@ export const postsReducer = (state = {initialState}, action) => {
 
     case PREV_ITEMS:
       return {...state, skipPosts: state.skipPosts - action.payload}
+
+    case DELETE_POST:
+      const posts = [...state.posts];
+      const filteredPosts = posts.filter(post => post.id !== action.payload)
+
+      return {...state, posts: filteredPosts}
 
     default:
       return state;

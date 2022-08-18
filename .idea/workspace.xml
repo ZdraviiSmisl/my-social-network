@@ -4,62 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added guarded routes">
-      <change afterPath="$PROJECT_DIR$/../../Other_projects/nextjs-starter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PageButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Button.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Heading.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Heading.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Heading.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/PageButton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/PageButton.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/PageButton.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Pagination.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Pagination.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Pagination.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/components.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/globals.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Other_projects/project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Other_projects/project/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added pagination component for posts">
+      <change beforePath="$PROJECT_DIR$/../../Other_projects/nextjs-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Other_projects/nextjs-starter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/auth/[...nextauth].js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/auth/[...nextauth].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/auth/securing-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/auth/securing-routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/[id].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/[id].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/axios-rest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/axios-rest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input-field.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/axios-rest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/postsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/usersReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/action-creators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/action-creators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Button.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ButtonTurnsPage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PageButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PageButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PageButton.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PageButton.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PageButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PageButton.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Posts.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Posts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,11 +104,11 @@
       <recent name="C:\React_Redux\Pet-projects\new-hope\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\React_Redux\Pet-projects\new-hope\src\pages\api" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\src" />
       <recent name="C:\React_Redux\Pet-projects\new-hope" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\pages" />
       <recent name="C:\React_Redux\Pet-projects\new-hope\pages\api\auth" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -189,7 +157,7 @@
       <workItem from="1657118465747" duration="128539000" />
       <workItem from="1657785843200" duration="212549000" />
       <workItem from="1659620967276" duration="16439000" />
-      <workItem from="1660125515874" duration="158704000" />
+      <workItem from="1660125515874" duration="180237000" />
     </task>
     <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
       <created>1657746706333</created>
@@ -233,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658513772626</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added pagination component for posts">
+      <created>1660755374210</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660755374211</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +234,8 @@
     <MESSAGE value="added SSR for single user and single post,as well as primary styles for those pages" />
     <MESSAGE value="added getting address information for each of users" />
     <MESSAGE value="added sing in and sign out button and client-side authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sing in and sign out button and client-side authentication" />
+    <MESSAGE value="added pagination component for posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pagination component for posts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
