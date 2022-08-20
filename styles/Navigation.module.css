@@ -33,10 +33,12 @@
   font-weight: 600;
   text-transform: uppercase;
   color: var(--sky-blue);
+  transition: 0.3s linear;
 }
 .nav__link--active, .nav__link:hover {
-  background-color: #2a5298;
-  opacity: 0.3;
+  color: moccasin;
+  background-color: steelblue;
+  box-shadow: 90px 0 0 0 rgba(0, 0, 0, 0.3) inset;
 }
 
 /*# sourceMappingURL=Navigation.module.css.map */

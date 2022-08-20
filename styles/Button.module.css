@@ -11,7 +11,9 @@
   transition: transform 0.3ms ease;
 }
 .btn:hover {
+  color: #4628ff;
   transform: translateY(-3px);
+  background-color: steelblue;
 }
 .btn:active {
   opacity: 0.3;
@@ -19,7 +21,7 @@
 
 /*styles*/
 .btnPrimarySolid {
-  @apply text-white bg-[#4628ff] border-none;
+  @apply text-white bg-sky-700 border-none;
 }
 
 .btn--warning--solid {

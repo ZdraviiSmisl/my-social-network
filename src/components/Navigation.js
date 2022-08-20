@@ -3,7 +3,7 @@ import styles from "../../styles/Navigation.module.scss"
 import res from "../../styles/reset.module.scss"
 import Image from "next/image";
 import {useRouter} from "next/router";
-import {getSession, useSession} from "next-auth/react";
+import {useSession} from "next-auth/react";
 import AccessDenied from "./AccessDenied";
 
 const NavRouts = [{id: 1, name: "Home", path: "/"},
@@ -13,7 +13,7 @@ const NavRouts = [{id: 1, name: "Home", path: "/"},
 ]
 
 
-export async function getServerSideProps(context) {
+/*export async function getServerSideProps(context) {
   const session = await getSession(context)
 
   return {
@@ -21,7 +21,7 @@ export async function getServerSideProps(context) {
       session
     }
   }
-}
+}*/
 
 
 const Nav = () => {

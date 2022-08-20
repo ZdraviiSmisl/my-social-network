@@ -1,0 +1,31 @@
+.post {
+  @apply grid grid-cols-3 grid-flow-row p-20 gap-y-2  max-w-[800px] min-h-[100vh] text-black  bg-white
+  outline-2 outline outline-[#a4abbf] rounded-[4%] hover:shadow-2xl hover:ease-in hover:-translate-y-3 hover:delay-300
+  hover:duration-150;
+}
+
+.postWrapImg {
+  @apply block w-[150px] h-[150px];
+}
+
+.postImg {
+  @apply block max-w-full h-[auto];
+}
+
+.postTitle {
+  @apply self-center row-start-1 col-start-2 col-span-2 text-2xl text-black font-bold;
+}
+
+.postBody {
+  @apply col-span-3;
+}
+
+.postList {
+  @apply pt-10 flex flex-wrap gap-x-2 flex-row col-span-2;
+}
+
+.postReactions {
+  @apply pt-10;
+}
+
+/*# sourceMappingURL=PostInfo.module.css.map */

@@ -36,11 +36,13 @@
     font-weight: 600;
     text-transform: uppercase;
     color: var(--sky-blue);
+    transition: .3s linear;
 
     &--active,
     &:hover {
-      background-color: #2a5298;
-      opacity: 0.3;
+      color: moccasin;
+      background-color: steelblue;
+      box-shadow: 90px 0 0 0 rgba(0, 0, 0, .3) inset;
     }
   }
 }

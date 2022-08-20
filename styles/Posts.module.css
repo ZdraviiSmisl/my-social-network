@@ -23,10 +23,11 @@
   @apply text-center text-[#0b476a];
 }
 .postsGrid .postsList {
-  @apply mb-[30px];
+  @apply mb-[35px];
 }
 .postsGrid .postItem {
-  @apply mb-[10px] px-5 py-2 grid grid-cols-gridLi gap-4 items-center justify-between  min-h-[30px] border-2 border-[#0b476a] rounded-lg;
+  @apply mb-[10px] px-5 py-2 grid grid-cols-gridLi gap-4 items-center justify-between  min-h-[30px] border-2 border-sky-700 rounded-lg
+    hover:-translate-y-1 hover:scale-110 hover:bg-white hover:shadow-2xl hover:border-[#4628ff] active:opacity-20;
 }
 .postsGrid .postDelete {
   @apply justify-self-end box-border min-w-max  w-24 h-7 text-amber-50 bg-sky-700  rounded-2xl hover:-translate-y-1 hover:bg-teal-600 hover:text-sky-700 hover:border-sky-900 hover:drop-shadow-md;
