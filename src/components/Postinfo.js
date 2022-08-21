@@ -2,10 +2,11 @@ import Heading from "./Heading";
 import styles from "../../styles/PostInfo.module.scss"
 import Image from 'next/image'
 import profilePic from '../images/avatar.png'
+import ReactionButtons from "./reactionButtons";
 
 
 const Postinfo = ({post}) => {
-  const {title, body, userId, tags, reactions} = post || {};
+  const {title, body, tags} = post || {};
   return (
     <article className={styles.post}>
       <p className={styles.postWrapImg}>
@@ -16,11 +17,11 @@ const Postinfo = ({post}) => {
       <ul className={styles.postList}>
         {tags && tags.map((tag, i) => (
           <li key={i}>
-            <p>#{tag}</p>
+            <a href={"#"} className={styles.postTag}>#{tag}</a>
           </li>
         ))}
       </ul>
-      <span className={styles.postReactions}>{reactions}</span>
+      <ReactionButtons styleButtons={styles.postReactions}/>
     </article>
   )
 }

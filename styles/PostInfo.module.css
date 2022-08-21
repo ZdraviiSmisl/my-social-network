@@ -1,31 +1,39 @@
 .post {
-  @apply grid grid-cols-3 grid-flow-row p-20 gap-y-2  max-w-[800px] min-h-[100vh] text-black  bg-white
+  @apply grid grid-cols-3 grid-flow-row pt-10 gap-y-2  max-w-[800px] min-h-[100vh] text-black  bg-white
   outline-2 outline outline-[#a4abbf] rounded-[4%] hover:shadow-2xl hover:ease-in hover:-translate-y-3 hover:delay-300
   hover:duration-150;
 }
 
 .postWrapImg {
-  @apply block w-[150px] h-[150px];
+  @apply block ml-10 w-[150px] h-[150px];
 }
 
 .postImg {
-  @apply block max-w-full h-[auto];
+  @apply block  max-w-full h-[auto];
 }
 
 .postTitle {
-  @apply self-center row-start-1 col-start-2 col-span-2 text-2xl text-black font-bold;
+  @apply self-center row-start-1 col-start-2 col-span-2 pr-40 text-2xl text-sky-700 font-bold;
 }
 
 .postBody {
-  @apply col-span-3;
+  @apply relative col-span-3 pt-10 pb-10 px-10 italic text-lg before:content-[""] before:block before:absolute
+  before:w-[100%] before:h-[1px] before:bg-[#959ab2] before:-left-0 before:bottom-0
+
+  after:content-[""] after:block after:absolute
+  after:w-[100%] after:h-[0.7px] after:bg-[#959ab2] after:-left-0 after:-top-10;
 }
 
 .postList {
-  @apply pt-10 flex flex-wrap gap-x-2 flex-row col-span-2;
+  @apply self-center flex flex-wrap gap-x-4 flex-row col-span-2 pl-10;
+}
+
+.postTag {
+  @apply text-sky-700 text-lg hover:text-sky-500;
 }
 
 .postReactions {
-  @apply pt-10;
+  @apply inline-block self-center pr-10 overflow-hidden;
 }
 
 /*# sourceMappingURL=PostInfo.module.css.map */

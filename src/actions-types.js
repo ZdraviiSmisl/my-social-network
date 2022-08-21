@@ -24,3 +24,4 @@ export const LIMIT_POSTS = "LIMIT_POSTS";
 export const NEXT_ITEMS = "NEXT_ITEMS";
 export const PREV_ITEMS = "PREV_ITEMS";
 export const SET_SKIP = "SET_SKIP";
+export const ADD_REACTIONS = "ADD_REACTIONS";

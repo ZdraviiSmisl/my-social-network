@@ -4,41 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="added some styles for posts component and added method for deleting posts">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/new-hope.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/avatar@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/PostInfo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/PostInfo.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/PostInfo.module.scss" afterDir="false" />
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="refactoring PostInfo.js component,added basic styles">
+      <change afterPath="$PROJECT_DIR$/src/components/reactionButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/reactionButtons.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/reactionButtons.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/reactionButtons.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Other_projects/nextjs-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Other_projects/nextjs-starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/new-hope.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions-types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Postinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Postinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Posts.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Posts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/postsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/action-creators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/action-creators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +28,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="SCSS File" />
         <option value="CSS File" />
         <option value="Sass File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -100,7 +80,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.44" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
-    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -173,7 +153,7 @@
       <workItem from="1657118465747" duration="128539000" />
       <workItem from="1657785843200" duration="212549000" />
       <workItem from="1659620967276" duration="16439000" />
-      <workItem from="1660125515874" duration="207799000" />
+      <workItem from="1660125515874" duration="242248000" />
     </task>
     <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
       <created>1657746706333</created>
@@ -224,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660755374211</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactoring PostInfo.js component,added basic styles">
+      <created>1660998274802</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660998274802</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +239,8 @@
     <MESSAGE value="added sing in and sign out button and client-side authentication" />
     <MESSAGE value="added pagination component for posts" />
     <MESSAGE value="added some styles for posts component and added method for deleting posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some styles for posts component and added method for deleting posts" />
+    <MESSAGE value="refactoring PostInfo.js component,added basic styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring PostInfo.js component,added basic styles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

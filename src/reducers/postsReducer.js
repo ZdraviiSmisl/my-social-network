@@ -1,4 +1,5 @@
 import {
+  ADD_REACTIONS,
   DELETE_POST,
   ERROR_LOADING,
   LIMIT_POSTS,
@@ -16,8 +17,19 @@ let initialState = {
   error: "",
   skipPosts: 0,
   totalPosts: 50,
-  limitPosts: 10
+  limitPosts: 10,
+  reactions: {
+    smile: 0,
+    laughter: 0,
+    thumbsUP: 0,
+    thumbsDown: 0,
+    handshake: 0,
+    bomb: 0,
+    fire: 0,
+  }
 }
+
+console.log(initialState)
 
 export const postsReducer = (state = {initialState}, action) => {
   switch (action.type) {
@@ -49,8 +61,11 @@ export const postsReducer = (state = {initialState}, action) => {
     case DELETE_POST:
       const posts = [...state.posts];
       const filteredPosts = posts.filter(post => post.id !== action.payload)
-
       return {...state, posts: filteredPosts}
+
+    case ADD_REACTIONS:
+      const reactionName = action.payload
+      return {...state}
 
     default:
       return state;

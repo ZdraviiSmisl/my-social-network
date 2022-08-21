@@ -26,8 +26,7 @@ const Posts = () => {
   const totalPages = Number(Math.ceil(totalPosts / limitPosts));
   let pages = [];
   pages = range(1, totalPages + 1);
-
-  console.log(posts)
+  
   return (
     <>
       <div className={`${res.page__center} ${styles.postsGrid}`}>

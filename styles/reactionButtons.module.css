@@ -1,0 +1,6 @@
+.postButtonReaction {
+  -webkit-tap-highlight-color: transparent;
+  @apply mr-2 duration-100 hover:scale-125;
+}
+
+/*# sourceMappingURL=reactionButtons.module.css.map */
