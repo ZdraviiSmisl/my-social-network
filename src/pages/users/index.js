@@ -8,15 +8,34 @@ import Link from "next/link";
 import styles from "../../../styles/Users.module.scss"
 import Error from "../404";
 import Pagination from "../../components/Pagination";
+import {getSession, useSession} from "next-auth/react";
+import AccessDenied from "../../components/AccessDenied";
+
+
+export async function getServerSideProps(context) {
+  const session = await getSession(context)
+
+  return {
+    props: {
+      session
+    }
+  }
+}
 
 
 const Users = () => {
   const dispatch = useDispatch();
+  const {data: session, status} = useSession();
   const {users, isLoading, error} = useSelector(state => state.usersReducer)
 
   useEffect(() => {
     dispatch(getUsers())
   }, [])
+
+
+  if (status === "unauthenticated")
+    return <AccessDenied/>
+
 
   return (
     <>

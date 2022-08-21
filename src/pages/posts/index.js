@@ -12,10 +12,23 @@ import {range} from "../../features/range"
 import Pagination from "../../components/Pagination";
 import {Button} from "../../components/Button";
 import custom from "../../../styles/Button.module.scss"
+import {getSession, useSession} from "next-auth/react";
+import AccessDenied from "../../components/AccessDenied";
+
+export async function getServerSideProps(context) {
+  const session = await getSession(context)
+
+  return {
+    props: {
+      session
+    }
+  }
+}
 
 
 const Posts = () => {
 
+  const {data: session, status} = useSession();
   const dispatch = useDispatch();
   const {posts, isLoading, error, totalPosts, limitPosts, skipPosts} = useSelector(state => state.postsReducer);
 
@@ -26,7 +39,11 @@ const Posts = () => {
   const totalPages = Number(Math.ceil(totalPosts / limitPosts));
   let pages = [];
   pages = range(1, totalPages + 1);
-  
+
+  if (status === "unauthenticated")
+    return <AccessDenied/>
+
+
   return (
     <>
       <div className={`${res.page__center} ${styles.postsGrid}`}>

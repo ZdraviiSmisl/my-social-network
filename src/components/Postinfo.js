@@ -9,9 +9,9 @@ const Postinfo = ({post}) => {
   const {title, body, tags} = post || {};
   return (
     <article className={styles.post}>
-      <p className={styles.postWrapImg}>
+      <a href={"#"} className={styles.postWrapImg}>
         <Image sizes={"30vw"} src={profilePic} width={100} height={100} alt="User avatar" layout={"responsive"}/>
-      </p>
+      </a>
       <Heading styleHead={styles.postTitle} tag="h3" text={title}/>
       <p className={styles.postBody}>{body}</p>
       <ul className={styles.postList}>

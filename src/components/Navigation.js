@@ -3,8 +3,6 @@ import styles from "../../styles/Navigation.module.scss"
 import res from "../../styles/reset.module.scss"
 import Image from "next/image";
 import {useRouter} from "next/router";
-import {useSession} from "next-auth/react";
-import AccessDenied from "./AccessDenied";
 
 const NavRouts = [{id: 1, name: "Home", path: "/"},
   {id: 2, name: "Users", path: "/users"},
@@ -13,24 +11,8 @@ const NavRouts = [{id: 1, name: "Home", path: "/"},
 ]
 
 
-/*export async function getServerSideProps(context) {
-  const session = await getSession(context)
-
-  return {
-    props: {
-      session
-    }
-  }
-}*/
-
-
 const Nav = () => {
   const router = useRouter();
-  const {data: session, status} = useSession();
-
-  if (status === "unauthenticated")
-    return <AccessDenied/>
-
 
   return (
     <nav className={`${styles.nav} ${res.page__list}`}>
