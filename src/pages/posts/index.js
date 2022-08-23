@@ -28,7 +28,7 @@ export async function getServerSideProps(context) {
 
 const Posts = () => {
 
-  const {data: session, status} = useSession();
+  const {status} = useSession();
   const dispatch = useDispatch();
   const {posts, isLoading, error, totalPosts, limitPosts, skipPosts} = useSelector(state => state.postsReducer);
 
@@ -37,8 +37,7 @@ const Posts = () => {
   }, [skipPosts]);
 
   const totalPages = Number(Math.ceil(totalPosts / limitPosts));
-  let pages = [];
-  pages = range(1, totalPages + 1);
+  let pages = range(1, totalPages + 1);
 
   if (status === "unauthenticated")
     return <AccessDenied/>

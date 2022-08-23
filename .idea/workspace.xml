@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="refactoring Postinfo.js">
-      <change beforePath="$PROJECT_DIR$/../../Other_projects/nextjs-starter" beforeDir="false" afterPath="$PROJECT_DIR$/../../Other_projects/nextjs-starter" afterDir="false" />
+    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="refactoring authentication: pages protected separately">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccessDenied.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccessDenied.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Postinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Postinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Button.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Posts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +54,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/styles/PostInfo.module.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/404.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.env.local" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,6 +66,7 @@
   <component name="ProblemsViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="2BZfJMxJXIhwp1yIazHKyGLBxRj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -71,7 +84,7 @@
     <property name="code.cleanup.on.save" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.44" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -81,7 +94,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="extract.css.actions.ExtractCSSConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -145,7 +158,12 @@
       <workItem from="1657118465747" duration="128539000" />
       <workItem from="1657785843200" duration="212549000" />
       <workItem from="1659620967276" duration="16439000" />
-      <workItem from="1660125515874" duration="244360000" />
+      <workItem from="1660125515874" duration="265657000" />
+      <workItem from="1661194037532" duration="204000" />
+      <workItem from="1661194250813" duration="19000" />
+      <workItem from="1661194332826" duration="4070000" />
+      <workItem from="1661203388682" duration="2305000" />
+      <workItem from="1661210532431" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
       <created>1657746706333</created>
@@ -210,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661104919222</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactoring authentication: pages protected separately">
+      <created>1661116824986</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661116824986</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +265,8 @@
     <MESSAGE value="added some styles for posts component and added method for deleting posts" />
     <MESSAGE value="refactoring PostInfo.js component,added basic styles" />
     <MESSAGE value="refactoring Postinfo.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring Postinfo.js" />
+    <MESSAGE value="refactoring authentication: pages protected separately" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring authentication: pages protected separately" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

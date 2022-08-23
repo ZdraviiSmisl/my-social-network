@@ -7,9 +7,9 @@ import {getUsers} from "../../store/action-creators";
 import Link from "next/link";
 import styles from "../../../styles/Users.module.scss"
 import Error from "../404";
-import Pagination from "../../components/Pagination";
 import {getSession, useSession} from "next-auth/react";
 import AccessDenied from "../../components/AccessDenied";
+import {nanoid} from "nanoid";
 
 
 export async function getServerSideProps(context) {
@@ -48,14 +48,14 @@ const Users = () => {
         {error && <Error/>}
         <ul>
           {users && users.map(({id, firstName, lastName}) => (
-            <li key={id}>
+            <li key={nanoid()}>
               <Link href={`/users/${id}`}>
                 <span className={styles.users__name}>{`${firstName} ${lastName}`}</span>
               </Link>
             </li>
           ))}
         </ul>
-        <Pagination/>
+        {/* <Pagination/>*/}
       </div>
     </>
   )

@@ -15,9 +15,9 @@
   transition: transform 0.3ms ease;
 
   &:hover {
-    color: #4628ff;
+
     transform: translateY(-3px);
-    background-color: steelblue;
+
   }
 
   &:active {
@@ -28,7 +28,9 @@
 /*styles*/
 
 .btnPrimarySolid {
-  @apply text-white bg-sky-700 border-none
+  @apply text-white bg-sky-700 border-none hover:bg-[#e6f1ff] hover:text-sky-700  hover:outline
+  hover:outline-sky-700 hover:outline-1  hover:shadow-inner hover:transition-[background-color]
+  hover:translate-y-0
 }
 
 

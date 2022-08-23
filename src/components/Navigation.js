@@ -6,7 +6,7 @@ import {useRouter} from "next/router";
 
 const NavRouts = [{id: 1, name: "Home", path: "/"},
   {id: 2, name: "Users", path: "/users"},
-  {id: 3, name: "Posts", path: "posts"},
+  {id: 3, name: "Posts", path: "/posts"},
   {id: 4, name: "login", path: "/login"},
 ]
 

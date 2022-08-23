@@ -7,6 +7,7 @@ import {useEffect} from "react";
 const AccessDenied = () => {
   const router = useRouter()
 
+
   useEffect(() => {
     router.push("/login")
   }, [])

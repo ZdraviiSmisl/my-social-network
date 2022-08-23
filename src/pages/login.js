@@ -27,7 +27,7 @@ export default function Login() {
           {!session && status === "unauthenticated" && (
             <a href="api/auth/signIn" onClick={event => {
               event.preventDefault()
-              signIn("github");
+              signIn("github")
             }}
                className={`${styles.form__singIn} ${styles.form__singLink}`}>{"Sign in"}
             </a>
@@ -35,7 +35,7 @@ export default function Login() {
           {session && status === "authenticated" && (
             <a href="api/auth/signOut" onClick={event => {
               event.preventDefault()
-              signOut();
+              signOut()
             }}
                className={`${styles.form__signOut} ${styles.form__singLink}`}>Sign out
             </a>)}

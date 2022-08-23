@@ -19,10 +19,10 @@
 
 .postBody {
   @apply relative col-span-3 pt-10 pb-10 px-10 italic text-lg before:content-[""] before:block before:absolute
-  before:w-[100%] before:h-[1px] before:bg-[#959ab2] before:-left-0 before:bottom-0
+  before:w-[100%] before:h-[1.5px] before:bg-gray-300 before:-left-0 before:bottom-0
 
   after:content-[""] after:block after:absolute
-  after:w-[100%] after:h-[0.7px] after:bg-[#959ab2] after:-left-0 after:-top-10
+  after:w-[100%] after:h-[1.5px] after:bg-gray-300 after:-left-0 after:-top-10
 }
 
 .postList {

@@ -1,17 +1,25 @@
 import Heading from "../components/Heading";
 import styles from "../../styles/404.module.scss"
-import {useEffect} from "react";
-import {useRouter} from "next/router";
+import { useRouter } from 'next/router'
 import Head from "next/head";
+
+
+import {useEffect} from "react";
 
 
 const Error = () => {
   const router = useRouter();
+  /*const effectRun = useRef(false)*/
+
 
   useEffect(() => {
-    setTimeout(() => {
-      router.push("/")
-    }, 5000)
+    console.log("effect ran")
+
+
+      setTimeout(() => {
+        router.push("/")
+      }, 5000)
+
   }, [router])
 
   return (
@@ -19,9 +27,8 @@ const Error = () => {
       <Head>
         <title>Error</title>
       </Head>
-      <Heading text="404"/><br/>
+      <Heading text="404"/>
       <Heading teg="h2" text="page doesn't exist"/>
-      <bt/>
       <Heading teg="h2" text="You'll be redirected to home page"/>
     </div>
   )

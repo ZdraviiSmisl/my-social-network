@@ -34,7 +34,7 @@
 
   .postItem {
     @apply mb-[10px] px-5 py-2 grid grid-cols-gridLi gap-4 items-center justify-between  min-h-[30px] border-2 border-sky-700 rounded-lg
-    hover:-translate-y-1 hover:scale-110 hover:bg-white hover:shadow-2xl hover:border-[#4628ff] active:opacity-20
+    hover:-translate-y-1 hover:scale-110 hover:bg-white hover:shadow-2xl hover:duration-300 active:opacity-20
   }
 
   .postDelete {
