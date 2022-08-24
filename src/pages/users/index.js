@@ -30,7 +30,7 @@ const Users = () => {
 
   useEffect(() => {
     dispatch(getUsers())
-  }, [])
+  }, [dispatch])
 
 
   if (status === "unauthenticated")

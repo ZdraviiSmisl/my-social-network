@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="refactoring authentication: pages protected separately">
+    <list default="true" id="10959322-ea57-45d3-ace5-7c25fe01c918" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccessDenied.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccessDenied.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Posts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Posts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/login.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/login.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,212 +25,44 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="Sass File" />
         <option value="JavaScript File" />
-        <option value="SCSS File" />
       </list>
     </option>
   </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/styles/PostInfo.module.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/pages/404.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/.env.local" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="autoscrollToSource" value="true" />
-    <option name="selectedTabId" value="CurrentFile" />
-    <option name="showPreview" value="true" />
-  </component>
-  <component name="ProjectId" id="2BZfJMxJXIhwp1yIazHKyGLBxRj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2DkBuyekH2vYw6TPRzQg9jtbE0Q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="code.cleanup.on.save" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="16.14.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.11.44" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="extract.css.actions.ExtractCSSConfigurable" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\React_Redux\Pet-projects\new-hope\src\images" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\public" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\React_Redux\Pet-projects\new-hope\src\pages\api" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\src" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\pages" />
-      <recent name="C:\React_Redux\Pet-projects\new-hope\pages\api\auth" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.dev">
-    <configuration name="login.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/pages/login.js" working-dir="$PROJECT_DIR$/src/pages">
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" with-js-debugger="true" url="http://localhost:3000/login" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.dev" />
-        <item itemvalue="Node.js.login.js" />
-        <item itemvalue="npm.build" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="554393dd-d0a2-4fc7-99f7-3685ec1fa7a2" name="Changes" comment="" />
-      <created>1657118463954</created>
+      <changelist id="10959322-ea57-45d3-ace5-7c25fe01c918" name="Changes" comment="" />
+      <created>1661233429838</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657118463954</updated>
-      <workItem from="1657118465747" duration="128539000" />
-      <workItem from="1657785843200" duration="212549000" />
-      <workItem from="1659620967276" duration="16439000" />
-      <workItem from="1660125515874" duration="265657000" />
-      <workItem from="1661194037532" duration="204000" />
-      <workItem from="1661194250813" duration="19000" />
-      <workItem from="1661194332826" duration="4070000" />
-      <workItem from="1661203388682" duration="2305000" />
-      <workItem from="1661210532431" duration="659000" />
+      <updated>1661233429838</updated>
+      <workItem from="1661233437204" duration="16157000" />
+      <workItem from="1661348250889" duration="2865000" />
     </task>
-    <task id="LOCAL-00001" summary="debug in files: user-service.jsx and route-guard.jsx">
-      <created>1657746706333</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657746706334</updated>
-    </task>
-    <task id="LOCAL-00002" summary="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image">
-      <created>1658129032762</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1658129032763</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added getting users and posts&#10;and a custom error page">
-      <created>1658164190724</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1658164190724</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added SSR for single user and single post,as well as primary styles for those pages">
-      <created>1658316248378</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1658316248378</updated>
-    </task>
-    <task id="LOCAL-00005" summary="added getting address information for each of users">
-      <created>1658407085339</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1658407085339</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added sing in and sign out button and client-side authentication">
-      <created>1658513772626</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1658513772626</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added pagination component for posts">
-      <created>1660755374210</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1660755374211</updated>
-    </task>
-    <task id="LOCAL-00008" summary="refactoring PostInfo.js component,added basic styles">
-      <created>1660998274802</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1660998274802</updated>
-    </task>
-    <task id="LOCAL-00009" summary="refactoring Postinfo.js">
-      <created>1661104919222</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1661104919222</updated>
-    </task>
-    <task id="LOCAL-00010" summary="refactoring authentication: pages protected separately">
-      <created>1661116824986</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1661116824986</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,32 +78,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="debug in files: user-service.jsx and route-guard.jsx" />
-    <MESSAGE value="added Users and Posts pages, components:Navigation,Layout,Header,Footer routing, styles for those components as well as logo image" />
-    <MESSAGE value="added getting users and posts&#10;and a custom error page" />
-    <MESSAGE value="added SSR for single user and single post,as well as primary styles for those pages" />
-    <MESSAGE value="added getting address information for each of users" />
-    <MESSAGE value="added sing in and sign out button and client-side authentication" />
-    <MESSAGE value="added pagination component for posts" />
-    <MESSAGE value="added some styles for posts component and added method for deleting posts" />
-    <MESSAGE value="refactoring PostInfo.js component,added basic styles" />
-    <MESSAGE value="refactoring Postinfo.js" />
-    <MESSAGE value="refactoring authentication: pages protected separately" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring authentication: pages protected separately" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="javascript-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

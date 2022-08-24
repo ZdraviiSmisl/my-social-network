@@ -1,79 +1,71 @@
 
 .form {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
-  align-self: center;
-  justify-content: center;
-  align-items: self-end;
-  padding: 15px 20px 10px 20px;
-  max-width: 200px;
-  min-height: 100px;
-  background-color: #3a6073;
-  filter: drop-shadow(0 2px 8px var(--for-shadow-form));
-  border-radius: 10px;
-
-  &__login {
-    grid-area: 1/1/2/3;
-    align-self: self-end;
-  }
-
-  &__password {
-    grid-area: 2/1/3/3;
-  }
-
-  &__input {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0 0 0 10px;
-    min-width: 200px;
-    min-height: 25px;
-    border: 1px solid var(--special-blue-30);
-    outline: 0;
-    border-radius: 2px;
-  }
-
-  &__panel {
-    grid-area: 3/1/4/3;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-
-  &__singIn,
-  &__signOut {
-    justify-self: self-start;
-  }
-
-  &__singUp {
-    justify-self: self-end;
-  }
-
-  &__singLink {
-    margin-top: 10px;
-    display: inline-block;
-    align-self: center;
-    min-width: 60px;
-    min-height: 22px;
-    text-align: center;
-    vertical-align: center;
-    font-size: 13px;
-    line-height: 1.5em;
-    font-weight: 700;
-    color: var(--sky-blue);
-    outline: 1.5px solid var(--sky-blue);
-    border-radius: 22px;
-  }
-
-  &__loading {
-    transition: all 0.2s ease-in;
-    opacity: 0;
-  }
-
-  &__loaded {
-    transition: all 0.2s ease-in;
-    opacity: 1;
-  }
+  @apply my-0 mx-[auto] grid grid-cols-2 grid-rows-3 self-center justify-center
+    items-end pt-[15px] box-border px-[20px] min-w-[200px] min-h-[120px] bg-[#3a6073]
+  drop-shadow-2xl rounded-[10px]
 }
 
+ .form__login {
+   grid-area: 1/1/2/3;
+   align-self: self-end;
+ }
+
+ .form__password {
+   grid-area: 2/1/3/3;
+   align-self: center;
+ }
+
+ .form__input {
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0 0 0 10px;
+   min-width: 180px;
+   min-height: 25px;
+   border: 1px solid var(--special-blue-30);
+   outline: 0;
+   border-radius: 2px;
+ }
+
+ .form__panel {
+   grid-area: 3/1/4/3;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   display: flex;
+   align-self: center;
+   flex-flow: row wrap;
+   justify-content: space-between;
+ }
+
+ .form__singIn,
+ .form__signOut {
+   justify-self: self-start;
+ }
+
+ .form__singUp {
+   justify-self: self-end;
+ }
+
+ .form__singLink {
+   display: inline-block;
+   align-self: self-start;
+   min-width: 60px;
+   min-height: 22px;
+   text-align: center;
+   vertical-align: center;
+   font-size: 13px;
+   line-height: 1.5em;
+   font-weight: 700;
+   color: var(--sky-blue);
+   outline: 1.5px solid var(--sky-blue);
+   border-radius: 22px;
+ }
+
+ .form__loading {
+   transition: all 0.2s ease-in;
+   opacity: 0;
+ }
+
+ .form__loaded {
+   transition: all 0.2s ease-in;
+   opacity: 1;
+ }

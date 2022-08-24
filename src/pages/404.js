@@ -2,23 +2,30 @@ import Heading from "../components/Heading";
 import styles from "../../styles/404.module.scss"
 import { useRouter } from 'next/router'
 import Head from "next/head";
-
-
-import {useEffect} from "react";
+import {useEffect, useRef} from "react";
 
 
 const Error = () => {
   const router = useRouter();
-  /*const effectRun = useRef(false)*/
+  const effectRun = useRef(false)
 
 
   useEffect(() => {
     console.log("effect ran")
+    if(effectRun.current===true) {
+
 
 
       setTimeout(() => {
         router.push("/")
       }, 5000)
+
+
+    }
+    return ()=>{
+      console.log("unmounted")
+      effectRun.current=true;
+    }
 
   }, [router])
 
