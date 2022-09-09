@@ -63,6 +63,8 @@
   --for-shadow-form: hsla(0, 0%, 0%, 0.24);
   --gray-blue: hsla(202, 81%, 23%, 1);
   --sunny-orage: hsla(20, 92%, 53%, 1);
+  --primary: #4628ff;
+  --danger: #eb3f27;
 }
 
 html,

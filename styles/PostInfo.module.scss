@@ -1,6 +1,6 @@
 .post {
   @apply grid grid-cols-3 grid-flow-row pt-10 gap-y-2  max-w-[800px] min-h-[100vh] text-black  bg-white
-  outline-2 outline outline-[#a4abbf] rounded-[4%] hover:shadow-2xl hover:ease-in hover:-translate-y-3 hover:delay-300
+  outline-2 outline outline-[#a4abbf] rounded-[4%] hover:shadow-2xl hover:ease-in hover:delay-300
   hover:duration-150
 }
 
@@ -26,13 +26,56 @@
 }
 
 .postList {
-  @apply self-center flex flex-wrap gap-x-4 flex-row col-span-2 pl-10
+  @apply self-start flex flex-wrap gap-x-4  flex-row col-span-2 pl-10 pt-[25px]
 }
 
 .postTag {
   @apply text-sky-700 text-lg hover:text-sky-500
 }
 
+
 .postReactions {
-  @apply inline-block self-center pr-10 overflow-hidden
+  @apply inline-flex flex-col gap-3 pt-[23px] pr-10 overflow-hidden
 }
+
+
+.postBtnActive {
+  @apply min-w-[65px]
+}
+
+.postBtnActive100 {
+  @apply min-w-[80px]
+  gap-[10px]
+}
+
+.postBtnActive1000 {
+  @apply min-w-[100px]
+}
+
+.postLikesCount {
+  @apply absolute left-10 top-2
+}
+
+.postLikesOver1999 {
+  @apply left-12
+}
+
+.postImgHeart {
+  @apply absolute top-1/4 left-[21%] fill-gray-500 hover:fill-red-700 hover:scale-125
+}
+
+
+.postImgHeartOver99 {
+  @apply left-[10px]
+}
+
+/*.postGroupBtn {
+  @apply absolute  top-[-100px] inline-flex flex-row bg-white drop-shadow-md rounded-[25px] transition duration-500 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] opacity-0 pointer-events-none hover:opacity-100 before:absolute
+  before:h-[10px] before:w-[10px] before:bg-white before:left-[50%] before:top-[-5px] before:translate-x-[-50%]
+before:rotate-45 last:hover:opacity-100 z-[1]
+}*/
+
+.postLikeBtn {
+  @apply relative left-[140px] inline-flex flex-row-reverse justify-center justify-self-center w-[35px] min-h-[35px] bg-white drop-shadow-md rounded-[50%]
+  ease-in-out duration-100 hover:pointer-events-auto  [&~div]:hover:opacity-100 [&~div]:hover:top-[40px] [&~div]:hover:drop-shadow-sm z-[2]}
+

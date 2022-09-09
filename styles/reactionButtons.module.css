@@ -1,3 +1,7 @@
+.postButtonWrap {
+  @apply py-2 max-w-[200px] bg-gray-300 rounded-[25px] transition duration-500 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] translate-x-[30%]  opacity-0 hover:opacity-100;
+}
+
 .postButtonReaction {
   -webkit-tap-highlight-color: transparent;
   @apply mr-2 duration-100 hover:scale-125;

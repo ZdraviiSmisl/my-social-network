@@ -3,6 +3,10 @@ import styles from "../../styles/Navigation.module.scss"
 import res from "../../styles/reset.module.scss"
 import Image from "next/image";
 import {useRouter} from "next/router";
+import {Button} from "./Button";
+import {useDispatch, useSelector} from "react-redux";
+import {setAuthUser} from "../store/action-creators";
+import custom from "../../styles/Button.module.scss"
 
 const NavRouts = [{id: 1, name: "Home", path: "/"},
   {id: 2, name: "Users", path: "/users"},
@@ -13,6 +17,7 @@ const NavRouts = [{id: 1, name: "Home", path: "/"},
 
 const Nav = () => {
   const router = useRouter();
+
 
   return (
     <nav className={`${styles.nav} ${res.page__list}`}>

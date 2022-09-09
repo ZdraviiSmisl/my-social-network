@@ -1,5 +1,6 @@
 //Action types
 export const ERROR_LOADING = "ERROR_LOADING";
+export const ERROR_AUTH = "ERROR_AUTH";
 export const LOADING = "LOADING";
 export const GET_USERS = "GET_USERS";
 export const SET_USERS = "SET_USERS";
@@ -25,3 +26,9 @@ export const NEXT_ITEMS = "NEXT_ITEMS";
 export const PREV_ITEMS = "PREV_ITEMS";
 export const SET_SKIP = "SET_SKIP";
 export const ADD_REACTIONS = "ADD_REACTIONS";
+export const SET_LOGIN="SET_LOGIN";
+export const SET_PASSWORD="SET_PASSWORD";
+export const SET_USER_EMAIL="SET_USER_EMAIL";
+export const SET_USER_ID  ="SET_USER_ID";
+export const SET_AUTH_USER = "SET_AUTH_USER";
+export const SET_LOG_OUT="SET_LOG_OUT";

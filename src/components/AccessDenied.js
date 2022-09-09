@@ -9,7 +9,9 @@ const AccessDenied = () => {
 
 
   useEffect(() => {
-    router.push("/login")
+    setTimeout(()=> {
+      router.push("/login")
+    },5000)
   }, [])
 
   return (
@@ -18,7 +20,7 @@ const AccessDenied = () => {
         <Head>
           <title>Access Denied</title>
         </Head>
-        <Heading tag="h1" text="You aren't authorized"/>
+        <Heading tag="p" text="You aren't authorized. You'll be redirected to login page"/>
       </div>
 
     </>

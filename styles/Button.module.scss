@@ -53,9 +53,12 @@
 }
 
 .btnPrimaryOutline {
-  color: var(--primary);
-  background-color: transparent;
-  border: 2px solid var(--primary);
+  padding: 5px 20px;
+  color: var(--white);
+  background-color: #2a5298;
+  border: 2px solid var(--white);
+  outline: 3px solid #2a5298;
+  border-radius: 5px;
 }
 
 .btnWarningOutline {
@@ -64,6 +67,7 @@
   background-color: transparent;
   /* border: 2px solid var(--warning);*/
   border: #75fa83;
+
 }
 
 .btn--danger--outline {

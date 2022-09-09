@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../../../styles/reset.module.scss";
 import Postinfo from "../../components/Postinfo";
+import {useSelector} from "react-redux";
 
 export async function getServerSideProps(context) {
   const {id} = context.params;

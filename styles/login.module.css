@@ -1,16 +1,43 @@
+.form__wrap {
+  @apply m-[auto] first-of-type:flex first-of-type:flex-col first-of-type:justify-center
+  first-of-type:gap-y-[30px] first-of-type:bg-[#3a6073] first-of-type:min-h-[120px] first-of-type:min-w-[200px]
+  first-of-type:drop-shadow-2xl first-of-type:rounded-[15px];
+}
+
+.form__hideSection {
+  @apply absolute scale-0;
+}
+
+.form__titleAlt {
+  @apply mx-[auto] min-w-[180px] text-xl text-white font-semibold;
+}
+
+.form__wrapGoHome {
+  @apply mx-auto;
+}
+
+.form__goHome {
+  @apply underline decoration-solid;
+}
+
 .form {
   @apply my-0 mx-[auto] grid grid-cols-2 grid-rows-3 self-center justify-center
-    items-end pt-[15px] box-border px-[20px] min-w-[200px] min-h-[120px] bg-[#3a6073]
+  items-end pt-[15px] box-border px-[20px] min-w-[200px] min-h-[120px] bg-[#3a6073]
   drop-shadow-2xl rounded-[10px];
 }
 
 .form__login {
+  margin-bottom: 5px;
   grid-area: 1/1/2/3;
+  display: flex;
+  flex-flow: column wrap;
   align-self: self-end;
 }
 
 .form__password {
   grid-area: 2/1/3/3;
+  display: flex;
+  flex-flow: column wrap;
   align-self: center;
 }
 
@@ -20,9 +47,21 @@
   padding: 0 0 0 10px;
   min-width: 180px;
   min-height: 25px;
+  color: var(--basic-black);
   border: 1px solid var(--special-blue-30);
   outline: 0;
-  border-radius: 2px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.form__input:hover {
+  outline: 2px solid var(--gray-blue);
+}
+.form__input:focus {
+  outline: 2px solid var(--primary);
+}
+
+.form__labelErr {
+  outline: 2px solid var(--danger);
 }
 
 .form__panel {
@@ -58,6 +97,11 @@
   outline: 1.5px solid var(--sky-blue);
   border-radius: 22px;
 }
+.form__singLink:hover {
+  color: var(--gray-blue);
+  outline-color: var(--gray-blue);
+  background-color: var(--basic-white);
+}
 
 .form__loading {
   transition: all 0.2s ease-in;
@@ -67,6 +111,14 @@
 .form__loaded {
   transition: all 0.2s ease-in;
   opacity: 1;
+}
+
+.form__errMsg {
+  @apply mb-[5px] p-[5px] font-bold text-red-600 bg-red-400;
+}
+
+.form__offscreen {
+  @apply absolute -left-[9999px];
 }
 
 /*# sourceMappingURL=login.module.css.map */

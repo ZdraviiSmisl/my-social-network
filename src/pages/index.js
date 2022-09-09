@@ -3,21 +3,19 @@ import styles from "../../styles/Home.module.scss"
 import Head from "next/head";
 import custom from "../../styles/Button.module.scss"
 import {Button} from "../components/Button";
+import {setAuthUser} from "../store/action-creators";
+import {useDispatch, useSelector} from "react-redux";
 
 const Home = () => {
-
+  const {authUser}=useSelector(state=>state.authReducer);
+  const dispatch=useDispatch();
   return (
     <div className={styles.container}>
       <Head>
         <title>Home</title>
       </Head>
       <Heading text="Home page"/>
-
-      <Button type="button" onClick={() => {
-        console.log("It's working!")
-      }} btn={custom.btn} buttonStyle={custom.btnPrimarySolid}
-              buttonSize={custom.btnLarge}>Something
-        doing</Button>
+      {authUser && <Button onClick={()=>dispatch(setAuthUser(false))} buttonStyle={custom.btnPrimaryOutline} btn={custom.btn} type="button" text="Log Out"/>}
 
     </div>
   )

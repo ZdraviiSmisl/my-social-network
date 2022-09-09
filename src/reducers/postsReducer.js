@@ -18,20 +18,19 @@ let initialState = {
   skipPosts: 0,
   totalPosts: 50,
   limitPosts: 10,
-  reactions: {
+  reactionsCount: 0,
+/*  reactions: {
     smile: 0,
     laughter: 0,
     thumbsUP: 0,
-    thumbsDown: 0,
     handshake: 0,
     bomb: 0,
     fire: 0,
-  }
+  }*/
 }
 
-console.log(initialState)
 
-export const postsReducer = (state = {initialState}, action) => {
+export const postsReducer = (state = initialState, action) => {
   switch (action.type) {
 
     case SET_POSTS:
@@ -64,8 +63,7 @@ export const postsReducer = (state = {initialState}, action) => {
       return {...state, posts: filteredPosts}
 
     case ADD_REACTIONS:
-      const reactionName = action.payload
-      return {...state}
+      return {...state, reactionsCount: state.reactionsCount + action.payload}
 
     default:
       return state;

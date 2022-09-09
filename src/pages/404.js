@@ -1,6 +1,6 @@
 import Heading from "../components/Heading";
 import styles from "../../styles/404.module.scss"
-import { useRouter } from 'next/router'
+import {useRouter} from 'next/router'
 import Head from "next/head";
 import {useEffect, useRef} from "react";
 
@@ -11,9 +11,7 @@ const Error = () => {
 
 
   useEffect(() => {
-    console.log("effect ran")
-    if(effectRun.current===true) {
-
+    if (effectRun.current === true) {
 
 
       setTimeout(() => {
@@ -22,9 +20,8 @@ const Error = () => {
 
 
     }
-    return ()=>{
-      console.log("unmounted")
-      effectRun.current=true;
+    return () => {
+      effectRun.current = true;
     }
 
   }, [router])
