@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {setSkipPosts} from "../store/action-creators";
+import {setSkipPosts} from "../store/action-creators-posts";
 import stylePage from "../../styles/PageButton.module.scss"
 
 export const PageButton = ({page, type, limitItems}) => {

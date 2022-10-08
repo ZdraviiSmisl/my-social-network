@@ -33,6 +33,10 @@
   hover:translate-y-0
 }
 
+.btnAddPost {
+  @apply mt-0 mb-[10px] inline-flex col-span-2 justify-self-end self-center justify-center max-w-0 px-10 py-2 text-sm whitespace-nowrap
+}
+
 
 .btn--warning--solid {
   color: var(--dark);
@@ -90,6 +94,6 @@
 }
 
 .btnLarge {
-  padding: 15px 30px;
+  padding: 15px 50px;
   font-size: 20px;
 }

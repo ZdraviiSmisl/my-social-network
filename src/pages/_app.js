@@ -3,18 +3,15 @@ import Layout from "../components/Layout"
 import Head from "next/head";
 import {Provider} from "react-redux";
 import {useStore} from "../store"
-import {AuthProvider} from "../context/AuthProvider";
-import {PrivateRoute} from "../components/PrivateRoute";
+import { SessionProvider } from "next-auth/react";
 
 
 function SocialNetwork({Component, pageProps}) {
   const store = useStore(pageProps.initialReduxStore);
-  const protectedRoutes=["/users","/posts"];
   return (
     <div className="wrapper">
       <Provider store={store}>
-        <AuthProvider>
-          <PrivateRoute protectedRoutes={protectedRoutes}>
+        <SessionProvider session={pageProps.session}>
           <Layout>
             <Head>
               <title>Social Network</title>
@@ -23,9 +20,7 @@ function SocialNetwork({Component, pageProps}) {
               <Component {...pageProps} />
             </main>
           </Layout>
-          </PrivateRoute>
-        </AuthProvider>
-
+        </SessionProvider>
       </Provider>
     </div>
   )

@@ -1,21 +1,25 @@
-import {useAuth} from "../context/AuthProvider"
-import {useRouter} from "next/router";
+import {useSession} from "next-auth/react";
 import {useEffect} from "react";
-import AccessDenied from "./AccessDenied";
+import Router from "next/router";
+import {Spinner} from "./Spinner";
 
-export const PrivateRoute = ({protectedRoutes, children}) => {
-  const {authUser, isLoading} = useAuth();
-  const router = useRouter();
-
-
-  const protectedPath = protectedRoutes.indexOf(router.pathname) !== -1;
+const PrivateRout=()=> {
+  const session = useSession();
+  const{status,data}=session;
+  console.log(session)
 
   useEffect(() => {
-    if (!authUser && !isLoading && protectedPath) {
-     router.push("/login")
-    }
-      },[authUser, isLoading, protectedPath, router])
+if(status==="unauthenticated") Router.replace("/pages/signIn").resolve("You aren't authenticated!")
+  },[status])
 
-  return children;
+  if (status==="authenticated")
+    return (
+      <div>
+        This page is protected by Next-Auth
+        {JSON.stringify(data.user,null,2)}
+      </div>
+    );
+  return <Spinner/>
 }
 
+export default PrivateRout;

@@ -10,9 +10,6 @@ import {
 } from "../actions-types";
 
 const initialState={
-  userName:"",
-  userEmail:"",
-  password: "",
   userId:null,
   authUser:false,
   userLogOut:false,
@@ -20,10 +17,10 @@ const initialState={
   errorMsg:"",
 }
 
-export const authReducer=(state={initialState},action)=> {
+export const authReducer=(state=initialState,action)=> {
 switch (action.type) {
 
-  case SET_LOGIN:
+/*  case SET_LOGIN:
     return  {
     ...state,userName:action.payload
     }
@@ -36,7 +33,7 @@ switch (action.type) {
     case SET_USER_EMAIL:
     return  {
     ...state,userEmail:action.payload.email
-    }
+    }*/
 
   case SET_USER_ID:
     return  {

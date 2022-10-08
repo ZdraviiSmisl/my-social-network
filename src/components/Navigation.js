@@ -3,21 +3,25 @@ import styles from "../../styles/Navigation.module.scss"
 import res from "../../styles/reset.module.scss"
 import Image from "next/image";
 import {useRouter} from "next/router";
-import {Button} from "./Button";
-import {useDispatch, useSelector} from "react-redux";
-import {setAuthUser} from "../store/action-creators";
-import custom from "../../styles/Button.module.scss"
+import {useSession} from "next-auth/react";
+
 
 const NavRouts = [{id: 1, name: "Home", path: "/"},
   {id: 2, name: "Users", path: "/users"},
   {id: 3, name: "Posts", path: "/posts"},
-  {id: 4, name: "login", path: "/login"},
+  {id: 4, name: "signIn", path: "/signIn"},
 ]
 
 
 const Nav = () => {
   const router = useRouter();
+  const {status} = useSession();
+  if (status === "authenticated") {
+    NavRouts[NavRouts.length - 1] = {id: 4, name: "signOut", path: "/signOut"}
+  } else if(status==="unauthenticated"){
+    NavRouts[NavRouts.length - 1] = {id: 4, name: "signIn", path: "/signIn"}
 
+  }
 
   return (
     <nav className={`${styles.nav} ${res.page__list}`}>

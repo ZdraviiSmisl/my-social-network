@@ -1,0 +1,6 @@
+.loader {
+  @apply inline-flex self-center justify-self-center  box-border text-[48px] font-sans font-semibold tracking-[2px] text-sky-700
+  animate-spinner;
+}
+
+/*# sourceMappingURL=Spinner.module.css.map */

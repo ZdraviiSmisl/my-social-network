@@ -17,7 +17,7 @@
 }
 
 .form__goHome {
-  @apply underline decoration-solid;
+  @apply font-bold underline decoration-solid;
 }
 
 .form {
@@ -55,9 +55,6 @@
 }
 .form__input:hover {
   outline: 2px solid var(--gray-blue);
-}
-.form__input:focus {
-  outline: 2px solid var(--primary);
 }
 
 .form__labelErr {

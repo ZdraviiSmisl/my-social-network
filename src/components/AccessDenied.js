@@ -8,11 +8,12 @@ const AccessDenied = () => {
   const router = useRouter()
 
 
-  useEffect(() => {
-    setTimeout(()=> {
-      router.push("/login")
-    },5000)
+
+  useEffect( () => {
+      router.push("/login").then(resolve=>setTimeout(resolve,5000))
   }, [])
+
+
 
   return (
     <>

@@ -4,53 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10959322-ea57-45d3-ace5-7c25fe01c918" name="Changes" comment="the last working version of the project">
-      <change afterPath="$PROJECT_DIR$/src/components/Admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/AuthProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/like-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/authReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/Spinner.module.scss" afterDir="false" />
+    <list default="true" id="10959322-ea57-45d3-ace5-7c25fe01c918" name="Changes" comment="deleted next-auth and added simple  authentication and guard-routs as well as update Post component">
+      <change afterPath="$PROJECT_DIR$/src/components/NewPostForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/auth/[...nextauth].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/rest-auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/rest-posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/rest-users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/signOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/action-creators-auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/action-creators-users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/NewPost.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions-types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AccessDenied.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccessDenied.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Postinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Postinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PrivateRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/reactionButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reactionButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/auth/[...nextauth].js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/auth/securing-routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/axios-rest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/axios-rest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/axios-rest.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signIn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/posts/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/authReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/postsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/action-creators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/action-creators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/action-creators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/action-creators-posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Button.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Navigation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Navigation.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/PostInfo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PostInfo.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PageButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PageButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/PageButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PageButton.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditPost.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/login.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/login.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/reactionButtons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reactionButtons.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/reactionButtons.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reactionButtons.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/reactionButtons.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reactionButtons.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +56,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,18 +89,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Other_projects/HTML_Academy/Let-s-go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../examples/Cookie-session-example" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\React_Redux\Pet-projects\new-hope\src\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\React_Redux\Pet-projects\new-hope\src" />
+      <recent name="C:\React_Redux\Pet-projects\new-hope" />
+      <recent name="C:\React_Redux\Pet-projects\new-hope\src\pages" />
+      <recent name="C:\React_Redux\Pet-projects\new-hope\src\pages\api\auth" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -104,7 +119,10 @@
       <option name="presentableId" value="Default" />
       <updated>1661233429838</updated>
       <workItem from="1661233437204" duration="16157000" />
-      <workItem from="1661348250889" duration="196875000" />
+      <workItem from="1661348250889" duration="263193000" />
+      <workItem from="1663250734363" duration="150670000" />
+      <workItem from="1664094730363" duration="115175000" />
+      <workItem from="1664804909185" duration="61179000" />
     </task>
     <task id="LOCAL-00001" summary="the last working version of the project">
       <created>1661353684919</created>
@@ -113,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661353684919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deleted next-auth and added simple  authentication and guard-routs as well as update Post component">
+      <created>1662722514960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662722514960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the last working version of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="the last working version of the project" />
+    <MESSAGE value="deleted next-auth and added simple  authentication and guard-routs as well as update Post component" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted next-auth and added simple  authentication and guard-routs as well as update Post component" />
   </component>
 </project>

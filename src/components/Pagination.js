@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {nextItems, prevItems} from "../store/action-creators";
+import {nextItems, prevItems} from "../store/action-creators-posts";
 import btnTurn from "../../styles/ButtonTurnsPage.module.scss"
 import {PageButton} from "./PageButton";
 

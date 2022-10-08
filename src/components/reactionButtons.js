@@ -1,5 +1,5 @@
 import {useDispatch, useSelector} from "react-redux";
-import {incrementReactions} from "../store/action-creators";
+import {incrementReactions} from "../store/action-creators-posts";
 import reactionStyle from "../../styles/reactionButtons.module.scss"
 
 

@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.scss"
 import Head from "next/head";
 import custom from "../../styles/Button.module.scss"
 import {Button} from "../components/Button";
-import {setAuthUser} from "../store/action-creators";
+import {setAuthUser} from "../store/action-creators-posts";
 import {useDispatch, useSelector} from "react-redux";
 
 const Home = () => {

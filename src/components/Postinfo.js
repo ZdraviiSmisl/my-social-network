@@ -4,7 +4,7 @@ import Image from 'next/image'
 import profilePic from "../images/avatar.png"
 import ReactionButtons from "./reactionButtons";
 import {useDispatch, useSelector} from "react-redux";
-import {incrementReactions} from "../store/action-creators";
+import {incrementReactions} from "../store/action-creators-posts";
 
 
 const Postinfo = ({post}) => {

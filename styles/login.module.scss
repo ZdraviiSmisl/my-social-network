@@ -16,7 +16,7 @@
 }
 
 .form__goHome {
-  @apply underline decoration-solid }
+  @apply font-bold underline decoration-solid }
 
 .form {
   @apply my-0 mx-[auto] grid grid-cols-2 grid-rows-3 self-center justify-center
@@ -53,10 +53,6 @@
 
   &:hover {
     outline: 2px solid var(--gray-blue);
-  }
-
-  &:focus {
-    outline: 2px solid var(--primary);
   }
 }
 

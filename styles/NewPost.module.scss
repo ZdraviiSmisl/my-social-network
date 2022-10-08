@@ -1,0 +1,12 @@
+.newPostForm {
+  @apply mt-0 mb-[15px] mx-[auto] grid grid-cols-2 grid-rows-1 self-center justify-center
+  items-end pt-[15px] box-border px-[20px] bg-white rounded-[10px]
+}
+
+.newPostTitle {
+  @apply mb-2 col-span-2 row-span-2 pl-4 outline-none border-[1.5px] border-gray-200 rounded-[5px]
+}
+
+
+.newPostText {
+  @apply mb-1.5 col-span-2 pl-4 pt-[15px] min-h-[50px] min-w-[400px] max-h-max text-gray-500 border-[1.5px] border-solid border-gray-200 overflow-hidden placeholder-opacity-50 rounded-[5px] resize-none outline-none focus:placeholder:opacity-0 }
