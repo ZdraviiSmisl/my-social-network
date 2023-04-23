@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10959322-ea57-45d3-ace5-7c25fe01c918" name="Changes" comment="deleted next-auth and added simple  authentication and guard-routs as well as update Post component">
-      <change afterPath="$PROJECT_DIR$/src/components/NewPostForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/auth/[...nextauth].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/rest-auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/rest-posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/rest-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/signOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/action-creators-auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/action-creators-users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/NewPost.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccessDenied.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccessDenied.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Postinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Postinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PrivateRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reactionButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reactionButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/axios-rest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/posts/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/[id].js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/posts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/authReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/postsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/postsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/action-creators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/action-creators-posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/PageButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PageButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/PageButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/PageButton.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/login.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/login.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/login.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../examples/Cookie-session-example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../examples/project_posts" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -122,7 +81,7 @@
       <workItem from="1661348250889" duration="263193000" />
       <workItem from="1663250734363" duration="150670000" />
       <workItem from="1664094730363" duration="115175000" />
-      <workItem from="1664804909185" duration="61179000" />
+      <workItem from="1664804909185" duration="73621000" />
     </task>
     <task id="LOCAL-00001" summary="the last working version of the project">
       <created>1661353684919</created>
